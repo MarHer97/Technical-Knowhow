@@ -8,7 +8,7 @@ Inhalt des Markdowns Power over Ethernet
 **[01 Definition](#01)** <br/>
 **[02 Vorteile](#02)** <br/>
 **[03 Voraussetzungen](#03)** <br/>
-**[04 IEEE-Spezifikationen](#04)** <br/>
+**[04 Standards](#04)** <br/>
 
 
 
@@ -62,23 +62,26 @@ Zudem kann das LAN-Kabel nicht beliebig lang sein, denn bei längeren Leitungen 
 <br/>
 
 <a name="04"></a>
-## 04 IEEE-Spezifikationen
-Im engeren Sinne wird heute mit PoE einer der IEEE-Standards 802.3 gemeint. Zuerst wurde im Juni 2003 Clause 33 „DTE Power over MDI“ in IEEE 802.3af-2003 mit bis zu 12,95 W am Gerät verabschiedet. Dieser wurde zuerst durch IEEE 802.3at-2009[3] leistungsmäßig erweitert – vor der Standardisierung auch als PoE+ oder PoE plus bekannt –, der die maximale Leistungsabgabe auf 25,5 W erhöhte. Schließlich folgte IEEE 802.3bt-2018 Clause 145 „Power over Ethernet“ (auch 4PPoE) mit nunmehr bis zu 71,3 Watt, der gleichzeitigen Übertragung von Energie über alle vier Leitungspaare und der Erweiterung auf 2.5GBASE-T, 5GBASE-T und 10GBASE-T.
+## 04 Standards
+Der IEEE 802.3af-2003-Standard versorgt Geräte mit bis zu 15,4 W (min. 44 V und 350 mA) auf jedem Port. Jedoch sind nur 12,95 W garantiert, denn ein gewisser Anteil geht bei der Übertragung verloren.
+
+Der neuere IEEE 802.3at-2009-Standard (auch bekannt als PoE+) bietet bis zu 25,5 W. Dieser Standard verbietet die Stromübertragung über alle vier Signalpaare.
+
+Ein weiterer Standard, der vor allem im industriellen Umfeld wie zum Beispiel in Fahrzeugen oder Produktionsmaschinen wichtig ist, ist IEEE 802.3bu (PoDL) für einpaarige Leitungen. Hier gibt es zehn Stufen von 5 bis 50 W.
+
+Eine neue Weiterentwicklung, der IEEE 802.3bt-Standard (4PPoE oder PoE++) soll noch größere Kapazitäten für die Stromversorgung bereitstellen: bis zu 55 W (Level 3) und 100 W (Level 4). Damit müsste jedes Leitungspaar eine Spannung von bis zu 600, beziehungsweise 960 mA aushalten. So könnte ein ganzer Arbeitsplatz mit Rechner, Bildschirm und Telefon über das LAN-Kabel versorgt werden.
 
 <br/>
 
 **Vergleich der PoE-Standards:**
 
-| IEEE-Standard                       | PoE (802.3af-2003) | PoE Plus (802.3at-2009) | 4-paar PoE (802.3bt-2018) |
-| :---------------------------------- | :----------------- | :---------------------- | :------------------------ |
-| Ausgangsspannung in V (DC)          | 36–57              | 42,5–57                 | 42,5–57                   |
-| Ausgangsstrom Betrieb in mA (DC)    | 350                | 600                     | 2× 960                    |
-| Ausgangsstrom Startmodus in mA (DC) | 400                | 400                     | ?                         |
-| Leistung der (PSE)-Versorgung in W  | max. 15,4          | max. 30                 | 45; 60; 75; 90            |
-| Leistung am Endgerät (PD) in W      | max. 12,95         | max. 25,5               | 40; 51; 62; 71            |
-| PSE-Klasse                          | 1; 2; 3            | 4                       | 5; 6; 7; 8                |
-| unterstützte Endgeräte (PD-Type)    | 1                  | 1 und 2                 | 1; 2; 3; 4                |
-| Benutzte Adernpaare                 | 2                  | 2                       | 2 und 4                   |
+| Standard     | Klasse | Klassifikationsstrom | Max. Speiseleistung (PSE) | Max. Entnahmeleistung (PD) | Ethernet Typ  |
+| :-------------- | :------ | :-------------------- | :------------------------- | :-------------------------- | :------------- |
+| IEEE 802.3af | 0      | 0-4 mA               | 15,4 W                    | 0,44-12,95 W               | 10/100 Base-T |
+| IEEE 802.3af | 1      | 9-12 mA              | 4,0 W                     | 0,44-3,84 W                | 10/100 Base-T |
+| IEEE 802.3af | 2      | 17-20 mA             | 7,0 W                     | 3,84-6,49 W                | 10/100 Base-T |
+| IEEE 802.3af | 3      | 26-30 mA             | 15,4 W                    | 6,49-12,95 W               | 10/100 Base-T |
+| IEEE 802.3at     | 4      | 36-44 mA             | 25,5 W                    | 12,95-21,90 W              | 10/100 Base-T |
 
 &uarr; [zurück zum Seitenanfang](#top)
 
