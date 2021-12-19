@@ -83,7 +83,7 @@ Alle Normen sind gültig, unterscheiden sich jedoch im Änderungsstand und im De
 
 <a name="03.2"></a>
 ### Nomenklatur
-Den in der Schutzartbezeichnung immer vorhandenen Buchstaben IP werden zwei Kennziffern (im Allgemeinen ohne Zwischenraum) angehängt. Diese zeigen an, welchen Schutzumfang ein Gehäuse bezüglich **[Berührung bzw. Fremdkörper (erste Kennziffer)](https://github.com/MarHer97/TechnicalKnowHow/wiki/Schutzart#erste-kennziffer-des-ip-codes)** und **[Feuchtigkeit bzw. Wasser (zweite Kennziffer)](https://github.com/MarHer97/TechnicalKnowHow/wiki/Schutzart#zweite-kennziffer-des-ip-codes)** bietet.
+Den in der Schutzartbezeichnung immer vorhandenen Buchstaben IP werden zwei Kennziffern (im Allgemeinen ohne Zwischenraum) angehängt. Diese zeigen an, welchen Schutzumfang ein Gehäuse bezüglich **[Berührung bzw. Fremdkörper (erste Kennziffer)](#03.3.1)** und **[Feuchtigkeit bzw. Wasser (zweite Kennziffer)](#03.3.2)** bietet.
 
 Wenn eine der beiden Kennziffern nicht angegeben werden muss oder soll, wird diese durch den Buchstaben `X` ersetzt (zum Beispiel `IPX1`). Bei Bedarf können an die Ziffernkombination noch definierte Buchstaben zur genaueren Beschreibung der Schutzart angehängt werden. 
 
