@@ -7,7 +7,7 @@ Inhalt des Markdowns Power over Ethernet
 
 **[01 Definition](#01)** <br/>
 **[02 Vorteile](#02)** <br/>
-**[03 Herausforderungen](#03)** <br/>
+**[03 Voraussetzungen](#03)** <br/>
 **[04 IEEE-Spezifikationen](#04)** <br/>
 
 
@@ -46,8 +46,12 @@ PoE wird von Netzwerkgeräten genutzt, die wenig Leistung benötigen. Es wird ty
 <br/>
 
 <a name="03"></a>
-## 03 Herausforderungen
-**Die höhere Stromstärke stellt die Datenverkabelung vor neue Herausforderungen: Wo mehr Strom fließt, wird durch den Widerstand mehr Wärme erzeugt. Wärmere Kabel dämpfen die Datenübertragung mehr als zuvor. Das kann dazu führen, dass nicht mehr genug Signal zum Empfänger gelangt und die Datenübertragung unmöglich wird.** Bei der Planung einer neuen, PoE-tauglichen LAN-Verkabelung muss dieser Effekt berücksichtigt werden. Die maximale Übertragungslänge muss den Temperaturbedingungen angepasst und verkürzt werden.
+## 03 Voraussetzungen
+Damit ein Gerät Strom über das Datennetz beziehen kann, muss neben Daten zusätzlich Strom in die Datenleitung eingespeist werden – idealerweise im Netzwerkverteiler. So eignet sich dieses Verfahren vor allem für IP-Telefone, Switche, WLAN-Access-Points oder Überwachungskameras.
+
+Ein weiterer Punkt, der vor der Installation bedacht werden muss, ist die zusätzliche Erwärmung des Kabels. Je mehr Strom durch das LAN-Kabel fließt, umso mehr Wärme wird durch den Widerstand erzeugt. Dies beeinträchtigt jedoch die Datenübertragung. Deshalb sollte im Vorfeld geklärt werden, welcher Belastung das Kabel standhalten muss und wie die Wärme des Kabels abfließen kann.
+
+Zudem kann das LAN-Kabel nicht beliebig lang sein, denn bei längeren Leitungen kommt es zum Spannungsabfall. Deshalb muss beim Kauf des Kabels schon auf den Aderquerschnitt geachtet werden, der nicht über einem AWG-Wert von 24 liegen sollte (CAT5).
 
 &uarr; [zurück zum Seitenanfang](#top)
 
