@@ -7,9 +7,16 @@ Inhalt des Markdowns Ethernet
 
 **[01 Definition](#01)** <br/>
 **[02 Standard](#02)** <br/>
-**[03 Voraussetzungen](#03)** <br/>
-**[04 Standards](#04)** <br/>
+> [OSI Model](#02.1) <br/>
 
+**[03 Bitübertragungsschicht (Physical Layer)](#03)** <br/>
+> [Ethernet Verkabelung](#03.1) <br/>
+> [Ethernet Geräte](#03.1) <br/>
+
+
+**[04 Sicherungsschicht (Data Link Layer)](#04)** <br/>
+> [Logical Link Control (LLC)](#04.1) <br/>
+> [Meadia Access Controll (MAC)](#04.2) <br/>
 
 
 <br/>
@@ -67,7 +74,7 @@ Zweck des OSI-Modells ist es, Kommunikation über unterschiedlichste technische 
 
 **Im OSI-Modell ist mit Ethernet sowohl die [physische Schicht](url) (OSI Layer 1 bzw. Bitübertragungsschicht) als auch die [Data-Link-Schicht](url) (OSI Layer 2 bzw. Sicherungsschicht) festgelegt.**
 
-<img src="hhttps://user-images.githubusercontent.com/83710723/146954345-197f3268-7283-4180-844b-ae239adfa0e2.png" alt="drawing" width="500"/>
+<img src="https://user-images.githubusercontent.com/83710723/146954345-197f3268-7283-4180-844b-ae239adfa0e2.png" alt="drawing" width="500"/>
 
 
 &uarr; [zurück zum Seitenanfang](#top)
