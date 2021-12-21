@@ -263,12 +263,19 @@ Beispiele für Dezimalreduktionszeiten von Bakterien-Endosporen in Wasser, bei 1
 
 Die Dezimalreduktionszeiten liegen bei Bakterien-Endosporen im trockenen Zustand wesentlich höher. Deshalb sind zum Sterilisieren im trockenen Zustand höhere Temperaturen und längere Einwirkzeiten erforderlich.
 
-&uarr; [zurück zum Seitenanfang](#top)
+<br/>
+
+
+**Thermische Sterilisationsverfahren**
+- [Dampfsterilisation](#Dampfsterilisation)
+- Heißluftsterilisation
+- Fraktionierte Sterilisation
 
 <br/>
 
 <br/>
 
+<a name="Dampfsterilisation"></a>
 #### Dampfsterilisation
 **Die Dampfsterilisation (Erhitzen im [Autoklaven](https://de.wikipedia.org/wiki/Autoklav)) ist das Standardverfahren in den meisten Labors und Krankenhäusern (ZSVA) und wird auch bei der Haltbarmachung von Lebensmitteln in Konservendosen und Glasverpackungen angewendet.** Dabei wird das Sterilisier- oder Füllgut 20 Minuten auf 121 °C bei zwei bar Druck in Wasserdampf erhitzt oder 5 Minuten auf 134 °C bei 3 bar. Zur Zerstörung von Prionen wird 18 Minuten auf 134 °C bei 3 bar erhitzt.
 
@@ -289,29 +296,6 @@ VI | [Prionen](https://de.wikipedia.org/wiki/Prion "Prion")                     
 
 &uarr; [zurück zum Seitenanfang](#top)
 
-<br/>
-
-<br/>
-
-#### Heißluftsterilisation
-**Heißluftsterilisation ist das Erhitzen im trockenen Zustand.**
-
-Heißluftsterilisation für Glas, Metalle, Porzellan („backen“), bei
-- 180 °C mindestens 30 min,
-- 170 °C mindestens 60 min,
-- 160 °C mindestens 120 min.
-
-&uarr; [zurück zum Seitenanfang](#top)
-
-<br/>
-
-<br/>
-
-#### Fraktionierte Sterilisation
-Die Fraktionierte Sterilisation wird nach dem irischen Physiker John Tyndall auch Tyndallisation benannt. Sie kann nur bei einem Sterilisiergut verwendet werden, in dem hitzeresistente Stadien der darin vorhandenen Mikroorganismen (z. B. Bakterienendosporen) auskeimen können. Das Sterilisiergut wird an mehreren aufeinander folgenden Tagen jeweils auf etwa 100 °C erhitzt und dazwischen bei Raumtemperatur gelagert. Bei der Zwischenlagerung sollen die durch das Erhitzen nicht abgetöteten Sporen auskeimen und die dadurch entstandenen, nicht hitzeresistenten Mikroorganismen-Stadien sollen beim Erhitzen am nächsten Tag abgetötet werden. Die Prozedur muss wiederholt werden, damit sichergestellt wird, dass alle Sporen auskeimen und gegebenenfalls zwischen zwei Erhitzungen eventuell neu gebildete Sporen ebenfalls wieder auskeimen und abgetötet werden.
-
-
-&uarr; [zurück zum Seitenanfang](#top)
 
 <br/>
 
