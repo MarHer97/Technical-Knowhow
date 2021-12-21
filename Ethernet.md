@@ -49,11 +49,12 @@ Ethernet entspricht weitestgehend der IEEE-Norm 802.3. Es wurde ab den 1990ern z
 
 **Die Norm IEEE 802.3 definiert die physikalische Schicht (Physical Layer) und den MAC (Media Access Control) der Sicherungsschicht (Data Link Layer) von drahtgebundenem Ethernet.** 
 
-![image](https://user-images.githubusercontent.com/83710723/146945009-3b0c0a1a-4af9-4a96-ada0-729f4b57de0d.png)
+<img src="https://user-images.githubusercontent.com/83710723/146945009-3b0c0a1a-4af9-4a96-ada0-729f4b57de0d.png" alt="drawing" width="500"/>
 
 Der Physical Layer besteht aus den folgenden Komponenten:
 
-![image](https://user-images.githubusercontent.com/83710723/146945339-0768fbd6-52a7-424d-94cc-2fbbd0881993.png)
+<img src="https://user-images.githubusercontent.com/83710723/146945339-0768fbd6-52a7-424d-94cc-2fbbd0881993.png" alt="drawing" width="500"/>
+
 
 <br/>
 
@@ -67,7 +68,7 @@ Zweck des OSI-Modells ist es, Kommunikation über unterschiedlichste technische 
 
 **Im OSI-Modell ist mit Ethernet sowohl die [physische Schicht](url) (OSI Layer 1 bzw. Bitübertragungsschicht) als auch die [Data-Link-Schicht](url) (OSI Layer 2 bzw. Sicherungsschicht) festgelegt.**
 
-![image](https://user-images.githubusercontent.com/83710723/146954345-197f3268-7283-4180-844b-ae239adfa0e2.png)
+<img src="hhttps://user-images.githubusercontent.com/83710723/146954345-197f3268-7283-4180-844b-ae239adfa0e2.png" alt="drawing" width="500"/>
 
 
 &uarr; [zurück zum Seitenanfang](#top)
@@ -99,7 +100,7 @@ Die Bitübertragungsschicht (engl. Physical Layer) ist die unterste Schicht. Die
 
 **Kategorien der Twisted Pair Kupferkabel** <br/>
 
-![image](https://user-images.githubusercontent.com/83710723/146945949-879b2f13-42cf-4a0d-9b2d-4a2ddd501e4d.png)
+<img src="https://user-images.githubusercontent.com/83710723/146945949-879b2f13-42cf-4a0d-9b2d-4a2ddd501e4d.png" alt="drawing" width="500"/>
 
 Kabel der Kategorie 5 und 5e werden beide noch in vielen bestehenden Anwendungen verwendet, verarbeiten jedoch die niedrigeren Gewschwindigkeiten zwischen 10 Mbit/s und 100 Mbits/s, sind aber anfälliger für Rauschen.
 
@@ -119,7 +120,8 @@ Halbduplex überträgt Daten in eine Richtung gleichzeitig, während Vollduplex 
 #### Glasfaserkabeln (Fiber Optic Cable)
 Glasfaserkabel verwenden optische Glasfasern aus Glas oder Kunststoff als Leitung für Lichtimpulse zur Übertragung von Daten. Dies hat Ethernet ermöglicht, größere Entfernungen mit höheren Geschwindigkeiten zu überwinden.
 
-![image](https://user-images.githubusercontent.com/83710723/146947895-8d147429-ea17-4511-b52d-816ce80b7118.png)
+<img src="https://user-images.githubusercontent.com/83710723/146947895-8d147429-ea17-4511-b52d-816ce80b7118.png" alt="drawing" width="500"/>
+
 
 <br/>
 
@@ -129,11 +131,13 @@ Glasfaserkabel verwenden verschiedene Arten von Steckverbindern, die je nach Anw
 - SFP Connector (Small Form Pluggable)
 - SC Connector (Subscriber Connector oder Standard Connector) 
 
-![image](https://user-images.githubusercontent.com/83710723/146948164-8cf45c7a-4911-41b3-b3f0-ba9df1f6fc97.png)
+<img src="https://user-images.githubusercontent.com/83710723/146948164-8cf45c7a-4911-41b3-b3f0-ba9df1f6fc97.png" alt="drawing" width="500"/>
+
 
 Um Glasfaser in einem Ethernet-Netzwerk zu verwenden, welches Twisted Pair Kupferkabel verwendet, müssen Sie einen Ethernet zu Glasfaser Konverter verwenden. Damit wird es dem Netzwerk ermöglicht die höheren Geschwindigkeiten von Glasfaser zu nutzen und die Entfernung zu verlängern, die das Ethernet Netzwerk erreichen kann.
 
-![image](https://user-images.githubusercontent.com/83710723/146948809-1cf5477e-214f-4236-9d8f-aea6265c5f6f.png)
+<img src="https://user-images.githubusercontent.com/83710723/146948809-1cf5477e-214f-4236-9d8f-aea6265c5f6f.png" alt="drawing" width="500"/>
+
 
 &uarr; [zurück zum Seitenanfang](#top)
 
@@ -145,8 +149,7 @@ Um Glasfaser in einem Ethernet-Netzwerk zu verwenden, welches Twisted Pair Kupfe
 ### Ethernet Geräte
 **Ethernet Geräte bestehen aus Computern, Druckern oder andere Geräte, die entweder über eine interne NIC (Network Interface Card) oder eine externe NIC (Network Interface Card) die auf USB oder PCI basiert. Switches und Router, die als Direktor des Netzwerkes fungieren und mehrere Computer oder sogar Netzwerke miteinander verbinden, um die Kommunikation zwischen all den verschiedenen Geräten zu ermöglichen.**
 
-
-![image](https://user-images.githubusercontent.com/83710723/146950135-af6272d0-f21d-4419-87fc-8fcf7524e69d.png)
+<img src="https://user-images.githubusercontent.com/83710723/146950135-af6272d0-f21d-4419-87fc-8fcf7524e69d.png" alt="drawing" width="500"/>
 
 Gateways und Bridges werden verwendet, um mehrere Ethernet Netzwerk miteinander zu verbinden und die Kommunikation über das lokale Netzwerk hinweg zu ermöglichen. Gateways verbinden zwei unterschiedliche Netzwerke miteinander, während eine Bridge zwei ähnliche Netzwerke miteinander verbindet, sodass Sie nur ein Netzwerk sehen.
 
@@ -166,7 +169,8 @@ Aufgabe der Sicherungsschicht (engl. Data Link Layer; auch Abschnittssicherungss
 
 Die Sicherungsschicht kann in zwei Abschnitte unterteilt werden:
 
-![image](https://user-images.githubusercontent.com/83710723/146955067-5f40b002-283f-445e-baaa-bf296575baa8.png)
+<img src="https://user-images.githubusercontent.com/83710723/146955067-5f40b002-283f-445e-baaa-bf296575baa8.png" width="500"/>
+
 
 <br/>
 
