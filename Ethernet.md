@@ -52,6 +52,28 @@ Ethernet entspricht weitestgehend der IEEE-Norm 802.3. Es wurde ab den 1990ern z
 
 <img src="https://user-images.githubusercontent.com/83710723/146945009-3b0c0a1a-4af9-4a96-ada0-729f4b57de0d.png" alt="drawing" width="500"/>
 
+<br/>
+
+**Übersicht der [IEEE 802.3 Normenteile](https://de.wikipedia.org/wiki/IEEE_802)**
+
+802.3 – [CSMA/CD](https://de.wikipedia.org/wiki/Carrier_Sense_Multiple_Access/Collision_Detection)
+- 802.3a – [10BASE2](https://de.wikipedia.org/wiki/10BASE2)
+- 802.3i – [10BASE-T](https://de.wikipedia.org/wiki/Ethernet#10-Mbit/s-Ethernet_mit_Twisted-Pair-Kabel) - 10-Mbit/s-Ethernet mit Twisted-Pair-Kabel
+- 802.3j – 10BASE-F
+- 802.3u – [Fast Ethernet](https://de.wikipedia.org/wiki/Ethernet#100-Mbit/s-Ethernet) - 100-Mbit/s-Ethernet
+- 802.3x – Full Duplex and flow control
+- 802.3y – 100BASE-T2 100 Mbit/s (12.5 MB/s) über low quality twisted pair
+- 802.3z – [Gigabit Ethernet über Glasfaser](https://de.wikipedia.org/wiki/Ethernet#Gigabit-Ethernet)
+- 802.3ab – Gigabit Ethernet über UTP
+- 802.3ad – [Link Aggregation](https://de.wikipedia.org/wiki/Link_Aggregation)
+- 802.3ae – [10-Gigabit-Ethernet](https://de.wikipedia.org/wiki/Ethernet#10-Gbit/s-Ethernet) - 10-Gbit/s-Ethernet
+- 802.3an – [10GBASE-T](https://de.wikipedia.org/wiki/IEEE_802.3an)
+- 802.3af – [Power over Ethernet](https://de.wikipedia.org/wiki/Power_over_Ethernet)
+- 802.3at – [Power over Ethernet](https://de.wikipedia.org/wiki/Power_over_Ethernet)
+- 802.3az – [Energy Efficient Ethernet](https://de.wikipedia.org/wiki/Energy_Efficient_Ethernet)
+- 802.3ba – 100 Gigabit Ethernet
+
+
 
 &uarr; [zurück zum Seitenanfang](#top)
 
