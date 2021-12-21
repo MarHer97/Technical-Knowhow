@@ -73,6 +73,15 @@ Eine neue Weiterentwicklung, der IEEE 802.3bt-Standard (4PPoE oder PoE++) soll n
 
 <br/>
 
+**Übersicht der [IEEE 802.3 Normenteile](https://de.wikipedia.org/wiki/IEEE_802)**
+
+802.3 – [CSMA/CD](https://de.wikipedia.org/wiki/Carrier_Sense_Multiple_Access/Collision_Detection)
+- 802.3af – [Power over Ethernet](https://de.wikipedia.org/wiki/Power_over_Ethernet)
+- 802.3at – [Power over Ethernet](https://de.wikipedia.org/wiki/Power_over_Ethernet)
+- 802.3az – [Energy Efficient Ethernet](https://de.wikipedia.org/wiki/Energy_Efficient_Ethernet)
+
+<br/>
+
 **Vergleich der PoE-Standards:**
 
 | Standard     | Klasse | Klassifikationsstrom | Max. Speiseleistung (PSE) | Max. Entnahmeleistung (PD) | Ethernet Typ  |
