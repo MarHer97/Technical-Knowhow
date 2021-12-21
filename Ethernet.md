@@ -34,12 +34,6 @@ Ethernet ist ein kabelgebundenes System, welches mit der Verwendung von Koaxialk
 
 **Ethernet ist eine Technik, die Software (Protokolle usw.) und Hardware (Kabel, Verteiler, Netzwerkkarten usw.) für kabelgebundene Datennetze spezifiziert, welche ursprünglich für lokale Datennetze (LANs) gedacht war und daher auch als LAN-Technik bezeichnet wird. Sie ermöglicht den Datenaustausch in Form von Datenframes zwischen den in einem lokalen Netz (LAN) angeschlossenen Geräten (Computer, Drucker und dergleichen).** Derzeit sind Übertragungsraten von 1, 10, 100 Megabit/s (Fast Ethernet), 1000 Megabit/s (Gigabit-Ethernet), 2,5, 5, 10, 25, 40, 50, 100, 200 und 400 Gigabit/s spezifiziert. In seiner ursprünglichen Form erstreckt sich das LAN dabei nur über ein Gebäude; Ethernet-Standard-Varianten über Glasfaser haben eine Reichweite von bis zu 70 km, proprietäre auch mehr.
 
-Die Ethernet-Protokolle umfassen Festlegungen für Kabeltypen und Stecker sowie für Übertragungsformen (Signale auf der Bitübertragungsschicht, Paketformate). Im OSI-Modell ist mit Ethernet sowohl die physische Schicht (OSI Layer 1) als auch die Data-Link-Schicht (OSI Layer 2) festgelegt. 
-
- Ethernet kann die Basis für Netzwerkprotokolle, wie z. B. AppleTalk, DECnet, IPX/SPX und TCP/IP, bilden.
-
-Für Anwendungen, in denen hohe Anforderungen an die Zuverlässigkeit der Kommunikation gestellt werden, kommt Echtzeit-Ethernet zum Einsatz.[3]
-
 &uarr; [zurück zum Seitenanfang](#top)
 
 <br/>
