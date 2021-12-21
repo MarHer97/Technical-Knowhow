@@ -57,7 +57,18 @@ Der Physical Layer besteht aus den folgenden Komponenten:
 
 <br/>
 
+<br/>
+
+<a name="02.1"></a>
 ### OSI Model
+Das ISO/OSI-Referenzmodell (Open Systems Interconnection model) ist ein Referenzmodell für Netzwerkprotokolle als Schichtenarchitektur. Es wird seit 1983 von der International Telecommunication Union (ITU) und seit 1984 auch von der International Organization for Standardization (ISO) als Standard veröffentlicht. Seine Entwicklung begann im Jahr 1977.
+
+Zweck des OSI-Modells ist es, Kommunikation über unterschiedlichste technische Systeme hinweg zu beschreiben und die Weiterentwicklung zu begünstigen. Dazu definiert dieses Modell sieben aufeinanderfolgende Schichten (engl. layers) mit jeweils eng begrenzten Aufgaben. In der gleichen Schicht mit klaren Schnittstellen definierte Netzwerkprotokolle sind einfach untereinander austauschbar, selbst wenn sie wie das Internet Protocol eine zentrale Funktion haben.
+
+**Im OSI-Modell ist mit Ethernet sowohl die [physische Schicht](url) (OSI Layer 1 bzw. Bitübertragungsschicht) als auch die [Data-Link-Schicht](url) (OSI Layer 2 bzw. Sicherungsschicht) festgelegt.**
+
+![image](https://user-images.githubusercontent.com/83710723/146954345-197f3268-7283-4180-844b-ae239adfa0e2.png)
+
 
 &uarr; [zurück zum Seitenanfang](#top)
 
@@ -68,8 +79,14 @@ Der Physical Layer besteht aus den folgenden Komponenten:
 <br/>
 
 <a name="03"></a>
-## 03 Physical
+## 03 Bitübertragungsschicht (Physical Layer)
+Die Bitübertragungsschicht (engl. Physical Layer) ist die unterste Schicht. Diese Schicht stellt mechanische, elektrische und weitere funktionale Hilfsmittel zur Verfügung, um physische Verbindungen zu aktivieren bzw. zu deaktivieren, sie aufrechtzuerhalten und Bits darüber zu übertragen.
 
+<br/>
+
+<br/>
+
+<a name="03.1"></a>
 ### Ethernet Verkabelung
 **Ethernet ist ein kabelgebundenes System, welches mit der Verwendung von Koaxialkabeln (Coaxial Cable) begann und sich heute erfolgreich mit Twisted Pair Kupferkabeln (Twisted Pair Cable) und Glasfaserkabeln (Fiber Optic Cable) entwickelt hat.** Koaxialkabel sind heute nicht mehr weit verbreitet, außer in älteren Installationen. Die am häufigsten verwendeten Kabel sind Twisted Pair Kupferkabel.
 
@@ -124,6 +141,7 @@ Um Glasfaser in einem Ethernet-Netzwerk zu verwenden, welches Twisted Pair Kupfe
 
 <br/>
 
+<a name="03.2"></a>
 ### Ethernet Geräte
 **Ethernet Geräte bestehen aus Computern, Druckern oder andere Geräte, die entweder über eine interne NIC (Network Interface Card) oder eine externe NIC (Network Interface Card) die auf USB oder PCI basiert. Switches und Router, die als Direktor des Netzwerkes fungieren und mehrere Computer oder sogar Netzwerke miteinander verbinden, um die Kommunikation zwischen all den verschiedenen Geräten zu ermöglichen.**
 
@@ -141,47 +159,34 @@ Gateways und Bridges werden verwendet, um mehrere Ethernet Netzwerk miteinander 
 <br/>
 
 <a name="04"></a>
-## 04 Data Link
+## 04 Sicherungsschicht (Data Link Layer)
+Aufgabe der Sicherungsschicht (engl. Data Link Layer; auch Abschnittssicherungsschicht, Datensicherungsschicht, Verbindungssicherungsschicht, Verbindungsebene, Prozedurebene) ist es, eine zuverlässige, das heißt weitgehend fehlerfreie Übertragung zu gewährleisten und den Zugriff auf das Übertragungsmedium zu regeln. 
 
+**Ethernet überträgt Datenpakete in dieser Sicherungsschicht mithilfe eines Algorithumus mit der Bezeichnung CSMA/CD (Carrier Sense Multiple Access with Collision Detection). CSMA/CD wird als Standard für Ethernet verwendet, um Datenkollisionen zu reduzieren und die erfolgreiche Datenübertragung zu erhöhen.** Der Algorithumus überprüft zunächst ob Datenverkehr im Netzwerk vorhanden ist.
+
+Die Sicherungsschicht kann in zwei Abschnitte unterteilt werden:
+
+![image](https://user-images.githubusercontent.com/83710723/146955067-5f40b002-283f-445e-baaa-bf296575baa8.png)
 
 <br/>
 
 <br/>
 
-<br/>
-
-<a name="03"></a>
-## 03 Voraussetzungen
-
+<a name="04.1"></a>
+### Logical Link Control (LLC)
+Die Logical Link Control (LLC) erstellt Pfade für Daten auf dem Ethernet, um zwischen Geräten zu übertragen.
 
 &uarr; [zurück zum Seitenanfang](#top)
 
-<br/>
 
 <br/>
 
 <br/>
 
-<a name="04"></a>
-## 04 Standards
-
-
-<br/>
-
-**Vergleich der PoE-Standards:**
-
-| Standard     | Klasse | Klassifikationsstrom | Max. Speiseleistung (PSE) | Max. Entnahmeleistung (PD) | Ethernet Typ  |
-| :-------------- | :------ | :-------------------- | :------------------------- | :-------------------------- | :------------- |
-| IEEE 802.3af | 0      | 0-4 mA               | 15,4 W                    | 0,44-12,95 W               | 10/100 Base-T |
-| IEEE 802.3af | 1      | 9-12 mA              | 4,0 W                     | 0,44-3,84 W                | 10/100 Base-T |
-| IEEE 802.3af | 2      | 17-20 mA             | 7,0 W                     | 3,84-6,49 W                | 10/100 Base-T |
-| IEEE 802.3af | 3      | 26-30 mA             | 15,4 W                    | 6,49-12,95 W               | 10/100 Base-T |
-| IEEE 802.3at     | 4      | 36-44 mA             | 25,5 W                    | 12,95-21,90 W              | 10/100 Base-T |
+<a name="04.2"></a>
+### Meadia Access Controll (MAC)
+Die Meadia Access Controll (MAC) verwendet Hardwareadressdaten, die Netzwerkschnittstellenkarten (NIC) zugewiesen sind, um einen bestimmten Comuputer oder ein bestimmtes Gerät zu identifizieren und die Quelle und das Ziel von Datenübertragungen anzuzeigen.
 
 &uarr; [zurück zum Seitenanfang](#top)
-
-<br/>
-
-<br/>
 
 <br/>
