@@ -46,19 +46,28 @@ Durch Desinfektion und Sterilisation werden Keime inaktiviert (biozide Wirkung: 
 
 <br/>
 
+**Verfahren zur Dekontamination**
+
+Reinigung, Desinfektion und Sterilisation dienen zur Entfernung und Inaktivierung von Keimen.
+
+| Verfahren | Definition |
+| :--- | :--- |
+| [Reinigung](#2) | Eine Reinigung ist die Entfernung von (meist sichtbarem) Schmutz. Bei jeder Aufbereitung ist die Reinigung immer der erste Schritt. Für viele Anforderungen ist sie bereits ausreichend (z.B. Fußböden). Durch Reinigung kann die Keimzahl z.B. auf Instrumenten auf 1/1000 (3 log10-Stufen) der ursprünglichen Keimzahl reduziert werden. |
+| [Desinfektion](#3) | Die Desinfektion bewirkt eine Reduktion der Zahl von Krankheitserregern auf Flächen oder Gegenständen, sodass von ihnen keine Infektion bzw. Erregerübertragung mehr ausgehen kann (Beseitigung pathogener Keime). Die mikrobielle Reduktion beträgt hier i.d.R. 5 log10-Stufen. |
+|  [Serilisation](#4) |  Steril bedeutet frei von allen vermehrungsfähigen Mikroorganismen. Ein Gegenstand kann als steril angesehen werden, wenn die Wahrscheinlichkeit des Vorhandenseins eines einzelnen vermehrungsfähigen Organismus oder Virus kleiner oder gleich 10–6 ist (Europäisches Arzneibuch). |
+
+<br/>
+
 **Wirkungsbereiche der Dekontamination**
 
-Mikroorganismen sind gegen Dekontaminationsverfahren unterschiedlich empfindlich. Wachsende Zellen (vegetative Formen) sind beispielsweise empfindlicher als generative Formen (Überdauerungsstadien, z.B. Sporen). Das Robert Koch-Institut (RKI) hat 4 Wirkungsbereiche definiert.
+Mikroorganismen sind gegen Dekontaminationsverfahren unterschiedlich empfindlich. Wachsende Zellen (vegetative Formen) sind beispielsweise empfindlicher als generative Formen (Überdauerungsstadien, z.B. Sporen). Je nach Stärke des Dekontaminationsverfahrens werden vom Robert Koch-Institut (RKI) 4 Wirkungsbereiche (A bis D) definiert.
 
-**Wirkungsbereiche der Dekontamination nach RKI**
-
-| Wirkungsbereich | Wirkung |
+| Wirkung Bereich | Wirkung |
 | :--- | :--- |
 | A | Abtötung aller vegetativen Bakterienformen (inklusive Mykobakterien) und Pilze sowie Pilzsporen |
 | B | Inaktivierung behüllter und unbehülltder Viren = viruzid; Inaktivierung behüllter Viren = begrenzt viruzid; Inaktivierung behüllter Viren sowie Adeno-, Noro und Rotaviren = begrenzt viruzid PLUS |
 | C | Abtötung der Sporen des Milzbranderregers (Bacillus anthracis) |
 | D | Abtötung der Sporen der Erreger von Gasödem (z.B. Clostridium perfringens) und Wundstarrkrampf (Clostridium tetani) |
-
 
 &uarr; [zurück zum Seitenanfang](#top)
 
