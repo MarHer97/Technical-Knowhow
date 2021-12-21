@@ -31,7 +31,7 @@ Inhalt des Markdowns Dekontamination
 
 <br/>
 
-**Arten der Dekontamination**
+**Arten der Dekontamination** <br/>
 Es werden grundsätzlich folgende Arten der Dekontamination unterschieden (in Klammer sind die in Deutschland üblichen Abkürzungen angeführt):
 - Dekontamination von Flächen (Dekon Fl bzw. Dekon-Fl)
 - Dekontamination von Fahrzeugen (Dekon F bzw. Dekon-F)
