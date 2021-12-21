@@ -12,7 +12,7 @@ Inhalt des Markdowns Ethernet
 
 **[04 Bitübertragungsschicht (Physical Layer)](#04)** <br/>
 > [Ethernet Verkabelung](#04.1) <br/>
-> [Ethernet Geräte](#04.1) <br/>
+> [Ethernet Geräte](#04.2) <br/>
 
 
 **[04 Sicherungsschicht (Data Link Layer)](#05)** <br/>
@@ -70,7 +70,7 @@ Während die erste Version der Technik nur 3 Megabit pro Sekunde schnell war, er
 
 <a name="02"></a>
 ## 02 Funktionsweise
-**Jedes Gerät in einem Ethernet-Netzwerk bekommt eine eigene Adresse zugewiesen, die man [MAC-Adresse](https://www.ionos.de/digitalguide/server/knowhow/mac-adresse/) (48-Bit) nennt. Die Mitglieder in diesem gemeinsamen Netzwerk können Nachrichten durch Hochfrequenz übertragen. **Ethernet verwendet dafür das Basisbandverfahren und das Multiplexverfahren. Für die Kommunikation untereinander wird der reibungslose Algorithmus [CSMA/CD](https://www.ionos.de/digitalguide/server/knowhow/csmacd-carrier-sense-multiple-access-collision-detection/) (Carrier Sense Multiple Access/Collision Detection) verwendet. Die Netzwerk-Topologie von Ethernet ist logisch, also kann der Aufbau z. B. als Bus oder Stern realisiert werden.
+**Jedes Gerät in einem Ethernet-Netzwerk bekommt eine eigene Adresse zugewiesen, die man [MAC-Adresse](https://www.ionos.de/digitalguide/server/knowhow/mac-adresse/) (48-Bit) nennt. Die Mitglieder in diesem gemeinsamen Netzwerk können Nachrichten durch Hochfrequenz übertragen.** Ethernet verwendet dafür das Basisbandverfahren und das Multiplexverfahren. Für die Kommunikation untereinander wird der reibungslose Algorithmus [CSMA/CD](https://www.ionos.de/digitalguide/server/knowhow/csmacd-carrier-sense-multiple-access-collision-detection/) (Carrier Sense Multiple Access/Collision Detection) verwendet. Die Netzwerk-Topologie von Ethernet ist logisch, also kann der Aufbau z. B. als Bus oder Stern realisiert werden.
 
 
 Die Kommunikation mit diesem Algorithmus [CSMA/CD](https://www.ionos.de/digitalguide/server/knowhow/csmacd-carrier-sense-multiple-access-collision-detection/) (Carrier Sense Multiple Access/Collision Detection) ist ähnlich einer Gesprächsrunde, bei der jeder Teilnehmer den anderen ausreden lässt. Kollidieren zwei Nachrichten, versuchen die Teilnehmer in zufälligen Abständen eine erneute Übertragung. Weil für eine erfolgreiche Kommunikation sowohl gesendet als auch empfangen werden muss, darf es nicht zum Datenstau kommen, etwa wenn eine gesendete Nachricht zu stark für eine eher schwache Empfangsleistung ist. Ansonsten können Daten verloren gehen. Signalgeschwindigkeit und Übertragungsrate regeln das reibungslose Kommunizieren, indem Regeln für die Datenframes festgelegt werden.
