@@ -25,9 +25,24 @@ Inhalt des Markdowns Dekontamination
 <a name="1"></a>
 ## 01 Grundlagen
 
+**Dekontamination ist das Entfernen von gefährlichen Verunreinigungen (Kontaminationen) von Personen, Objekten oder ungeschützten Flächen und gehört damit zum [ABC-Schutz](https://de.wikipedia.org/wiki/ABC-Schutz). Die Gefährdungen können dabei aus [radioaktiven](https://de.wikipedia.org/wiki/Kontamination_(Radioaktivit%C3%A4t)), [biologischen](https://de.wikipedia.org/wiki/Biologie) oder [chemischen](https://de.wikipedia.org/wiki/Chemie) Gründen sein. In der [Pharmazie](https://de.wikipedia.org/wiki/Pharmazie) werden [Desinfektionsmaßnahmen](https://de.wikipedia.org/wiki/Desinfektion) in [Reinräumen](https://de.wikipedia.org/wiki/Reinraum) Dekontaminationen genannt.**
+
+<br/>
+
+**Arten der Dekontamination**
+Es werden grundsätzlich folgende Arten der Dekontamination unterschieden (in Klammer sind die in Deutschland üblichen Abkürzungen angeführt):
+- Dekontamination von Flächen (Dekon Fl bzw. Dekon-Fl)
+- Dekontamination von Fahrzeugen (Dekon F bzw. Dekon-F)
+- Dekontamination von Geräten (Dekon G bzw. Dekon-G)
+- Dekontamination von Personen (Dekon P bzw. Dekon-P)
+
+<br/>
+
 **Inaktivierung von Keimen**
 
 Durch Desinfektion und Sterilisation werden Keime inaktiviert (biozide Wirkung: bakterizid, fungizid, viruzid usw.). Dies geschieht niemals „schlagartig“, sondern die Anzahl der lebenden Keime nimmt während der Inaktivierung logarithmisch ab. Die Zeit, in der 90% der Keime inaktiviert werden, wird als D-Wert eines Mikroorganismus bezeichnet (üblicherweise in min). Nach Ablauf jedes D-Wert-Zeitintervalls ist die Keimzahl somit auf 1/10 des vorhergehenden Wertes verringert.
+
+<br/>
 
 **Wirkungsbereiche der Dekontamination**
 
