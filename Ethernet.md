@@ -51,9 +51,8 @@ Ethernet entspricht weitestgehend der IEEE-Norm 802.3. Es wurde ab den 1990ern z
 
 <img src="https://user-images.githubusercontent.com/83710723/146945009-3b0c0a1a-4af9-4a96-ada0-729f4b57de0d.png" alt="drawing" width="500"/>
 
-Der Physical Layer besteht aus den folgenden Komponenten:
 
-<img src="https://user-images.githubusercontent.com/83710723/146945339-0768fbd6-52a7-424d-94cc-2fbbd0881993.png" alt="drawing" width="500"/>
+&uarr; [zurück zum Seitenanfang](#top)
 
 
 <br/>
