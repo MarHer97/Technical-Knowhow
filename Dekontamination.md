@@ -246,11 +246,13 @@ Die Sterilisation erfolgt durch [thermische](#4.1), [physikalische](4.2) (thermi
 
 <br/>
 
+**Überlebenskurve der Sterilisation**
+
 <img src="https://user-images.githubusercontent.com/83710723/146906049-85e72343-8b8a-4d09-a192-8c21f1c68b48.png" alt="drawing" width="600"/>
 
 <br/>
 
-**Parameter**
+Parameter
 - Dezimalreduktionszeit [D]
 - Keimzahl [N]
 - Sterilisationszeit [t]
