@@ -13,7 +13,9 @@ Inhalt des Markdowns Dekontamination
 > [Chemothermische Desinfektion](#3.3) <br/>
 
 **[04 Sterilisation](#4)** <br/>
-
+> [Thermische Sterilisation](#4.1) <br/>
+> [Chemische Sterilisation](#4.2) <br/>
+> [Physikalische Sterilisation](#4.3) <br/>
 
 
 <br/>
@@ -285,8 +287,67 @@ IV | [Bacillus-anthracis](https://de.wikipedia.org/wiki/Bacillus_anthracis "Baci
 V | [Bacillus-stearothermophilus](https://de.wikipedia.org/wiki/Geobacillus_stearothermophilus "Geobacillus stearothermophilus")\-Sporen | 121                          | 15              |
 VI | [Prionen](https://de.wikipedia.org/wiki/Prion "Prion")                                                                               | 132                          | 60              |
 
+&uarr; [zurück zum Seitenanfang](#top)
+
+<br/>
+
+<br/>
+
+#### Heißluftsterilisation
+**Heißluftsterilisation ist das Erhitzen im trockenen Zustand.**
+
+Heißluftsterilisation für Glas, Metalle, Porzellan („backen“), bei
+- 180 °C mindestens 30 min,
+- 170 °C mindestens 60 min,
+- 160 °C mindestens 120 min.
 
 &uarr; [zurück zum Seitenanfang](#top)
 
 <br/>
 
+<br/>
+
+#### Fraktionierte Sterilisation
+Die Fraktionierte Sterilisation wird nach dem irischen Physiker John Tyndall auch Tyndallisation benannt. Sie kann nur bei einem Sterilisiergut verwendet werden, in dem hitzeresistente Stadien der darin vorhandenen Mikroorganismen (z. B. Bakterienendosporen) auskeimen können. Das Sterilisiergut wird an mehreren aufeinander folgenden Tagen jeweils auf etwa 100 °C erhitzt und dazwischen bei Raumtemperatur gelagert. Bei der Zwischenlagerung sollen die durch das Erhitzen nicht abgetöteten Sporen auskeimen und die dadurch entstandenen, nicht hitzeresistenten Mikroorganismen-Stadien sollen beim Erhitzen am nächsten Tag abgetötet werden. Die Prozedur muss wiederholt werden, damit sichergestellt wird, dass alle Sporen auskeimen und gegebenenfalls zwischen zwei Erhitzungen eventuell neu gebildete Sporen ebenfalls wieder auskeimen und abgetötet werden.
+
+
+&uarr; [zurück zum Seitenanfang](#top)
+
+<br/>
+
+<br/>
+
+<a name="4.2"></a>
+### Chemische Sterilisation
+**Definition: Chemische Sterilisation**
+> Mit dem Ausdruck Chemische Sterilisation (auch Gassterilisation genannt) bezeichnet man eine Sterilisation mit bestimmten chemischen Stoffen, wie Formaldehyd, Ethylenoxid oder Peressigsäure. Hierbei ist zu beachten, dass das aufzubereitende Sterilisiergut sauber und trocken ist und darüber hinaus in speziell gasdurchlässige Folien gepackt wurde. 
+
+<br/>
+
+**Bei thermostabilen Materialien ist immer eine Dampfsterilisation einer chemischen Sterilisation vorzuziehen.**
+
+<br/>
+
+**Chemische Sterilisationsverfahren**
+- Nassantiseptik
+- Trockenantiseptik
+
+
+&uarr; [zurück zum Seitenanfang](#top)
+
+<br/>
+
+<br/>
+
+<a name="4.3"></a>
+### Physikalische Sterilisation
+
+**Physikalische Sterilisationsverfahren**
+- Hochdrucksterilisation
+- Strahlensterilisation
+- Plasmasterilisation
+- Sterilfiltration
+
+&uarr; [zurück zum Seitenanfang](#top)
+
+<br/>
