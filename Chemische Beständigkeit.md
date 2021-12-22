@@ -29,6 +29,8 @@ Inhalt des Markdowns Chemische Beständigkeit
 ## 01 Definition
 **Als chemische Beständigkeit wird allgemein die Widerstandsfähigkeit von [Werkstoffen](https://de.wikipedia.org/wiki/Werkstoff) gegen die Einwirkung von [Chemikalien](https://de.wikipedia.org/wiki/Chemikalie) bezeichnet. Im Gegensatz zur [Korrosion](https://de.wikipedia.org/wiki/Korrosion) findet dabei kein Materialabtrag statt, was insbesondere für Kunststoffe und Elastomere typisch ist.**
 
+**Der Begriff chemische Beständigkeit bezeichnet die Chemikalienresistenz von Werkstoffen. Somit ist dies die Fähigkeit eines Werkstoffs, Zerstörungsprozessen zu widerstehen, die durch Reaktionen zwischen Umgebung und Oberfläche ausgelöst werden.** Wird ein Werkstoff chemisch beansprucht oder ist dessen chemische Beständigkeit mangelhaft, kann dies zur Korrosion führen und den Bruch des Werkstoffes beschleunigen. Bei daraus gefertigten Bauteilen oder Maschinen hat dies negative Auswirkungen auf die Lebensdauer oder führt zum Versagen dieser.
+
 Da sich die chemische Beständigkeit auf den reinen Werkstoff bezieht, kann es u. U. in realen Anwendungen zu Einschränkungen der Materialeignung kommen (z. B. Spannungsrissen oder Permeation). Daher kann auch von chemischer Widerstandsfähigkeit gesprochen werden, da diese explizit auf das Potenzial des Werkstoffs hinweist, chemischen Angriffen zu widerstehen.
 
 &uarr; [zurück zum Seitenanfang](#top)
