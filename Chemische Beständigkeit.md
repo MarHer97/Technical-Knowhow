@@ -77,7 +77,7 @@ Im Gegensatz zur [Korrosion](https://de.wikipedia.org/wiki/Korrosion) von Metall
 **Glas besitzt gegenüber den meisten Flüssigkeiten oder Gasen eine recht hohe Beständigkeit. Wenn ein Glas unbeständig ist, verläuft die anders als die von Metallen, wird aber auch über Materialabtrag definiert. Die chemische Beständigkeit von Glas lässt sich in folgende Beständigkeitskategorien unterteilen:**
 - [Wasserbeständigkeit](#4.1)
 - [Säurebeständigkeit](#4.2) 
-- [Laugenbeständigkeit](4.3)
+- [Laugenbeständigkeit](#4.3)
 
 <br/>
 
