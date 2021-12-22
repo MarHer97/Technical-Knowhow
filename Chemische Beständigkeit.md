@@ -14,6 +14,11 @@ Inhalt des Markdowns Chemische Beständigkeit
 > [Säurebeständigkeit](#4.2) <br/>
 > [Laugenbeständigkeit](#4.3) <br/>
 
+**[05 Ermittlung der chemischen Beständigkeit](#5)** <br/>
+> [Verfahren](#5.1) <br/>
+> [Bewertung](#5.2) <br/>
+
+
 <br/>
 
 <br/>
@@ -84,7 +89,7 @@ Im Gegensatz zur [Korrosion](https://de.wikipedia.org/wiki/Korrosion) von Metall
 <br/>
 
 <a name="4.1"></a>
-## Wasserbeständigkeit
+### Wasserbeständigkeit
 **Die Wasserbeständigkeit von Glas kann durch den sogenannten „Glasgriestest“ ermittelt werden.**
 
 Dabei wird 2 Gramm Glas auf eine Korngröße von 300 bis 500 μm zerkleinert und über die Dauer von einer Stunde in einem Becherglas mit 50 ml Wasser auf 98 °C erhitzt. Die Menge der in dieser Zeit durch das Wasser aus dem Glas herausgelösten Ionen in Salzsäure (Na2O Äquivalent) wird mit Hilfe von Titration gemessen. Dabei werden die herausgelösten Ionen in Salzsäure (0,01 mol/l) als Maßlösung pro g Glasgries ml/g analysiert. Als Indikator wird Methylrotlösung verwendet. 
@@ -98,7 +103,7 @@ Werden nur bis zu 31 μg herausgelöst, entspricht die Glasart der Wasserbestän
 <br/>
 
 <a name="4.2"></a>
-## Säurebeständigkeit
+### Säurebeständigkeit
 **Die Säurebeständigkeit von Glas wird nach dem [DIN 12116:2001-03](https://www.beuth.de/de/norm/din-12116/37156377) Verfahren in drei Klassen eingeteilt, je nach dem Gewichtsverlust, der durch den Angriff der Säure ausgelöst wird.** 
 
 Dazu wird die zu testende Oberfläche sechs Stunden lang in Salzsäure gekocht. Wenn der halbe Gewichtsverlust des Oberflächenabtrags weniger als 0,7 mg pro 100 cm2 beträgt, gilt die Glasart als säurebeständig der Klasse S1. **Je mehr aus dem Glas herausgelöst wird, desto schlechter die Säurebeständigkeitsklasse.** Je nach Zusammensetzung weisen Borosilikatgläser (z. B. Duran oder Pyrex) und Kalknatrongläser (z. B. AR-Glas) eine hohe Resistenz gegen Säuren auf. Sie werden deshalb als S1-Gläser klassifiziert.
@@ -110,11 +115,85 @@ Dazu wird die zu testende Oberfläche sechs Stunden lang in Salzsäure gekocht. 
 <br/>
 
 <a name="4.3"></a>
-## Laugenbeständigkeit
+### Laugenbeständigkeit
 **Zur Bestimmung der Laugenbeständigkeit wird die jeweilige Glasoberfläche 3 Stunden lang gekocht.** 
 
 Die dazu verwendete wässrige Lösung muss zu gleichen Teilen aus Natronlauge (1 mol/l) und Natriumcarbonat (0,5 mol/l) bestehen. Beträgt der Gewichtsverlust des Glases maximal 75 mg/100 cm2, handelt es sich um ein Glas der Laugenbeständigkeitsklasse 1. **Je höher der Gewichtsverlust, desto schlechter die Klassifizierung der Alkalibeständigkeit.**
 
+
+&uarr; [zurück zum Seitenanfang](#top)
+
+
+<br/>
+
+<br/>
+
+<br/>
+
+<a name="5"></a>
+## 05 Ermittlung der chemischen Beständigkeit
+Die chemische Beständigkeit wird zumeist im Immersionsversuch bestimmt. Methoden zur Ermittlung der Spannungsrissbeständigkeit sind der ESC-Versuch (Environmental Stress Cracking) und der Zeitstandzugversuch in Medien. Dieser und andere Tests aus dem Gebiet der Umweltsimulation erlauben die Auswahl eines geeigneten Werkstoffes.
+
+**Durch die folgende Prüfprozedur bestehend aus [Verfahren](#5.1) und [Bewertung](#5.2) kann nachgewiesen werden ob ein Material oder eine Oberfläche über einen bestimmten Zeitraum, gegenüber einer bestimmten Chemikalie „beständig“, „bedingt beständig“ oder „nicht beständig“ ist.**
+
+<br/>
+
+<br/>
+
+<a name="5.1"></a>
+### Verfahren
+
+**Der Nachweis der Chemischen Beständigkeit eines Materials oder einer Oberfläche kann nach folgenden Verfahren der folgend aufgelisteten Normen bestimmt werden:**
+
+<br/>
+
+ISO 2812 Beschichtungsstoffe – Bestimmung der Beständigkeit gegen Flüssigkeiten
+-  [Teil 1: Eintauchen in Flüssigkeiten außer Wasser](https://www.beuth.de/de/norm/din-en-iso-2812-1/283993895) (DIN EN ISO 2812-1:2018-03)
+-  [Teil 4: Tropf-/Fleckverfahren](https://www.beuth.de/de/norm/din-en-iso-2812-4/283993918) (DIN EN ISO 2812-4:2018-03)
+
+<br/>
+
+Dabei wird das Material oder die Oberfläche über einen längeren definierten Zeitraum mit den entsprechenden Chemikalien belastet und die belastete Stelle anschließend mikroskopisch begutachtet. Veränderungen die festgestellt werden können sein:
+- Verfärbungen
+- Veränderung des Glanzgrades
+- Erweichung
+- Quellungen
+- Ablösung von Beschichtungen
+- Blasenbildung
+
+&uarr; [zurück zum Seitenanfang](#top)
+
+
+<br/>
+
+<br/>
+
+<a name="5.2"></a>
+### Bewertung
+Nach der zeitlich definierten Belastung wird die Materialoberfläche von Prüfflüssigkeitsresten befreit und auf sichtbare Veränderungen nach den folgenden Normen überprüft und ausgewertet. 
+
+<br/>
+
+ISO 4628 Beschichtungsstoffe - Beurteilung von Beschichtungsschäden − Bewertung der Menge und der Größe von Schäden und der Intensität von gleichmäßigen Veränderungen im Aussehen
+- [Teil 1: Allgemeine Einführung und Bewertungssystem](https://www.beuth.de/de/norm/din-en-iso-4628-1/238845075) (DIN EN ISO 4628-1:2016-07)
+- [Teil 2: Bewertung des Blasengrades](https://www.beuth.de/de/norm/iso-4628-2/249214482) (DIN EN ISO 4628-2:2016-01)
+- [Teil 3: Bewertung des Rostgrades](https://www.beuth.de/de/norm/iso-4628-3/249214497) (DIN EN ISO 4628-3:2016-01)
+- [Teil 4: Bewertung des Rissgrades](https://www.beuth.de/de/norm/din-en-iso-4628-4/238845174) (DIN EN ISO 4628-4:2016-07)
+- [Teil 5: Bewertung des Abblätterungsgrades](https://www.beuth.de/de/norm/din-en-iso-4628-5/238845195) (DIN EN ISO 4628-5:2016-07)
+
+<br/>
+
+Zum Ermitteln einer eventuellen Regenerationszeit wird die Beurteilung direkt im Anschluss und nach einer Stunde nach dem Entfernen der Prüfflüssigkeit durchgeführt. Nach [DIN EN ISO 4628-1](https://www.beuth.de/de/norm/din-en-iso-4628-1/238845075) werden folgende Kriterien in die Klassen 0 bis 5 eingeteilt: 
+- Menge der Schäden (N), Klasse 0 bis 5
+- Größe der Schäden (S), Klasse 0 bis 5
+- Intensität der Veränderungen (I), Klasse 0 bis 5
+
+<br/>
+
+Andere beobachtete Unregelmäßigkeiten werden ebenfalls genannt. Die Auswertung erfolgt nach folgendem Schema:
+> „Blasenbildung, N2-S2“ oder „Verfärbung, I1“
+
+Eine mögliche Aufkonzentrierung einer Prüfflüssigkeit auf einer Oberfläche durch Eintrocknen in der realen Reinraumumgebung muss berücksichtigt werden. 
 
 &uarr; [zurück zum Seitenanfang](#top)
 
