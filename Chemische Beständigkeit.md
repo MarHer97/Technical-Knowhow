@@ -1,6 +1,6 @@
 
 <a name="top"></a>
-# Power over Ethernet
+# Chemische Beständigkeit
 
 <br/>
 
