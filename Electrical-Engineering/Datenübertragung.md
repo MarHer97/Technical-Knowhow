@@ -8,8 +8,13 @@
 Inhalt des Markdowns Datenübertragung
 
 **[01 Definition](#01)** <br/>
-**[02 Vorteile](#02)** <br/>
-**[03 Voraussetzungen](#03)** <br/>
+> [Analoge und Digitale Übertragungstechnik](#Übertragungstechnik) <br/>
+
+**[02 Analoge Informationsübertragung](#02)** <br/>
+**[03 Digitale Informationsübertragung](#03)** <br/>
+> [Serielle Datenübertragung](#seriell) <br/>
+> [Parallele Datenübertragung](#parallel) <br/>
+
 **[04 Standards](#04)** <br/>
 
 
@@ -22,15 +27,62 @@ Inhalt des Markdowns Datenübertragung
 
 <a name="01"></a>
 ## 01 Definition
-**Die serielle [Schnittstelle](https://de.wikipedia.org/wiki/Schnittstelle) ist eine umgangssprachliche Bezeichnung für eine Schnittstelle zur Datenübertragung zwischen zwei Geräten, bei denen einzelne [Bits](https://de.wikipedia.org/wiki/Bit) zeitlich nacheinander übertragen werden ([Serielle Datenübertragung](https://de.wikipedia.org/wiki/Serielle_Daten%C3%BCbertragung)).** Die Bezeichnung wird in Abgrenzung zu einer [parallelen Schnittstelle](#https://de.wikipedia.org/wiki/Parallele_Schnittstelle) benutzt, bei der mehrere Bits zeitgleich auf mehreren Stromkreisen übertragen werden. Beide Bezeichnungen sind unpräzise und werden für eine große Anzahl unterschiedlicher Schnittstellendefinitionen benutzt.
+**Mit Datenübertragung oder Informationsübertragung bezeichnet man grundsätzlich alle Methoden, die (Nutz-)Informationen von einem Sender (Informationsquelle) zu einem Empfänger (Informationssenke) übermitteln.**
 
-Gegenüber parallelen Schnittstellen benötigt die serielle Schnittstelle weniger Stromkreise und demzufolge einen geringeren Verkabelungsaufwand, was besonders bei größeren Distanzen bedeutsam ist. Parallele Schnittstellen boten historisch größere Übertragungsgeschwindigkeiten und wurden daher für Anwendungen bevorzugt, bei denen große Datenmengen über kurze Distanz zu übertragen waren, wo die Kabelkosten nicht dominierten. Dieses Argument ist allerdings inzwischen obsolet, die technische Entwicklung der seriellen Schnittstellen hat die der parallelen Schnittstellen überholt.
+Speziell auf der technischen Ebene – und hier insbesondere in der Kommunikationstechnik und (als deren Teilgebiet) der Nachrichtentechnik – wird dazu vom Sender eine physikalische Größe (bspw. elektrische Spannung oder die Frequenz von elektromagnetischen Wellen) zeitlich variiert und dies dann vom Empfänger gemessen.
+In der Übertragungstechnik unterscheidet man zwischen der Information und dem Signal. Die Information bezeichnet das, was übertragen wird. Das Signal definiert, wie es übertragen wird. Sowohl Information als auch das Signal können analog oder digital sein.
 
-Im engeren Umfeld von Personal Computern ist mit der seriellen Schnittstelle meist eine Schnittstelle nach EIA-RS-232 gemeint, in der Regel unter Verwendung eines 9-pin D-Sub-Steckers. Sie dient dort traditionell dem Anschluss von Peripheriegeräten an den PC, die mit vergleichsweise moderaten Übertragungsgeschwindigkeiten auskommen, wie z. B. Tastaturen, Mäuse, Drucker, DFÜ-Geräte etc., ist aber inzwischen weitgehend durch die universellere USB-Schnittstelle ersetzt worden. Die USB-Schnittstelle arbeitet zwar ebenfalls seriell, ist aber umgangssprachlich meist nicht gemeint, wenn man von "der seriellen Schnittstelle" redet. Zwischen USB und RS-232 existieren günstige Adapter, so dass die meisten PC-Hersteller dazu übergegangen sind, auf die RS-232 Schnittstelle im Grundgerät zu verzichten.
+<br/>
 
-Serielle Schnittstellen im weiteren Sinn sind sehr weit verbreitet und existieren in sehr vielen Ausprägungen und Varianten. Es gehören dazu neben Punkt-zu-Punkt Verbindungen wie RS-232 und RS-422 auch Netzwerk- und Busschnittstellen, wie z. B. Ethernet, CAN-Bus oder RS-485. Datenraten, mögliche Übertragungsdistanzen und andere Eigenschaften unterscheiden sich z. T. beträchtlich, so existiert für fast jeden Anwendungsbereich eine passende Schnittstellendefinition. Siehe dazu die Auflistung weiter unten.
+<br/>
 
-Serielle Schnittstellen unterscheiden sich nicht nur durch den verwendeten Steckverbinder und die elektrischen Übertragungsparameter, sie benutzen auch unterschiedliche Methoden zur Übertragungssteuerung, Datenflusskontrolle und zur Synchronisation (siehe dazu Kommunikationsprotokoll). Sie können in eine Richtung („simplex“) oder in beide Richtungen („duplex“) arbeiten, Letzteres entweder abwechselnd („halb-duplex“) oder gleichzeitig („voll-duplex“) (siehe dazu Duplex (Nachrichtentechnik)).
+<a name="Übertragungstechnik"></a>
+### Analoge und Digitale Übertragungstechnik
+
+**In der Übertragungstechnik unterscheidet man zwischen der Information und dem Signal. Die Information bezeichnet das, was übertragen wird. Das Signal definiert, wie es übertragen wird. Sowohl Information als auch das Signal können analog oder digital sein.**
+
+Ein analoges Signal ist eine physikalische Größe (bspw. elektrische Spannung oder die Frequenz von elektromagnetischen Wellen), die im Verlauf der Größe (Amplitude) als auch im zeitlichen Verlauf kontinuierliche Werte annehmen kann. Ein digitales Signal ist eine physikalische Größe, die nur bestimmte diskrete Werte annehmen kann. Die Werte entsprechen der Anzahl der vereinbarten Zustände. Werden zwei Zustände vereinbart, dann handelt es sich um binäre (digitale) Signale. Analoge Signale bestehen aus einem kontinuierlichen Signal- bzw. Datenstrom. Den gibt es bei digitalen Signalen nicht. 
+
+![image](https://user-images.githubusercontent.com/83710723/147656547-805d0374-2d5a-447a-b8dd-ae250a429c4f.png)
+
+**Man unterscheidet zwischen analogen und digitalen Signalen bzw. analogen und digitalen Informationen. Insgesamt gibt es 4 verschiedene Signal- und Informations-Kombinationen:**
+- [Analoge Information - Analoges Signal (Direkt)](#Direkt)
+- [Digitale Information - Analoges Signal (Modem)](#Modem)
+- [Digitale Information - Digitales Signal (Interface)](#Interface)
+- [Analoge Informationen digital übertragen (Codec)](#Codec)
+
+<br/>
+
+<br/>
+
+<a name="Direkt"></a>
+#### Analoge Information - Analoges Signal (Direkt)
+Soll eine analoge Information analog übertragen werden, dann ist das relativ einfach. Es ist kein spezielles Interface notwendig. Zwar gibt es auch hier bestimmte Schnittstellen und Verarbeitungselemente, doch deren Funktion ist relativ einfach. Im Prinzip ist das so, wie wenn man einen Lautsprecher an einen Audio-Verstärker anschließt. Das Signal wird über ein Kabel vom Verstärker zum Lautsprecher geführt. Und der Lautsprecher gibt das Signal als Schall aus.
+
+&uarr; [zurück zum Seitenanfang](#top)
+
+<br/>
+
+<a name="Modem"></a>
+#### Digitale Information - Analoges Signal (Modem)
+Schwieriger wird es, wenn eine digitale Information analog übertragen werden soll. Typischer Fall ist der Einsatz eines Modems, dass die digitalen Daten aus einem Computersystem in analoge Signale umwandelt, um sie über das Telefonnetz zu übertragen.
+Modem ist ein Kunstwort. Es besteht aus den Begriffen Modulator und Demodulator.
+
+&uarr; [zurück zum Seitenanfang](#top)
+
+<br/>
+
+<a name="Interface"></a>
+#### Digitale Information - Digitales Signal (Interface)
+Leicht anzunehmen wäre es, dass sich digitale Informationen ohne Probleme digital übertragen lassen würden. Doch weit gefehlt. Digitale Signale haben den Nachteil, dass sie sehr störanfällig sind. Vor der Übertragung müssen digitale Signale für die Übertragung aufwändig aufbereitet werden.
+
+&uarr; [zurück zum Seitenanfang](#top)
+
+<br/>
+
+<a name="Codec"></a>
+#### Analoge Informationen digital übertragen (Codec)
+Wenn analoge Informationen in digitale Signale umgewandelt werden müssen, dann ist dafür ein Codec verantwortlich. Es handelt sich um ein Kunstwort, bestehend aus Coder und Decoder. Das analoge Signal wird in ein digitales Signal codiert und umgekehrt decodiert. Bei der Codierung bekommt ein analoger Wert einen digitalen Wert, der dann übertragen wird. Beim Empfänger wird der digitale Wert in den analogen Wert decodiert.
 
 &uarr; [zurück zum Seitenanfang](#top)
 
@@ -41,9 +93,11 @@ Serielle Schnittstellen unterscheiden sich nicht nur durch den verwendeten Steck
 <br/>
 
 <a name="02"></a>
-## 02 Vorteile
+## 02 Analoge Informationsübertragung
 
-**Hauptvorteil von PoE ist, dass man ein Stromversorgungskabel einsparen kann und so auch an schwer zugänglichen Stellen oder in Bereichen, in denen viele Kabel stören würden, Ethernet-angebundene Geräte installieren kann. Zusätzlich kann auch die Steckdose eingespart werden und eine schnelle Inbetriebnahme wird garantiert, ganz ohne lästige Verkabelung.** Die Stromversorgung zum Gerät muss nicht separat mit einem Stromkabel und Netzgerät zugeführt oder mit einer Batterie gelöst werden. Das Gerät bezieht die Energie stattdessen über das Datennetz. Dazu muss – meist an zentraler Stelle, im Netzwerkverteiler – neben den Datensignalen zusätzlich Strom in die Datenleitung eingespeist werden. Somit lassen sich einerseits zum Teil Installationskosten einsparen, andererseits kann der damit einfach zu realisierende Einsatz einer zentralen unterbrechungsfreien Stromversorgung (USV) die Ausfallsicherheit der angeschlossenen Geräte erhöhen.
+**Bei der analogen Übertragung von Information werden der physikalischen Größe die entsprechenden Daten kontinuierlich aufgeprägt. Jeder Wert ist dabei in einem festgelegten Intervall zulässig und zu jedem Zeitpunkt relevant.**
+
+Die technische Unmöglichkeit den Nachrichtenkanal (das heißt die physikalische Größe) so gut von der Außenwelt abzuschirmen, dass dieser nicht von ihr beeinflusst wird, sowie die technische Unmöglichkeit die physikalische Größe exakt zu messen, führen mit der Zeit zum Informationsverlust, der auch nicht durch Verstärker verhindert werden kann.
 
 &uarr; [zurück zum Seitenanfang](#top)
 
@@ -54,14 +108,91 @@ Serielle Schnittstellen unterscheiden sich nicht nur durch den verwendeten Steck
 <br/>
 
 <a name="03"></a>
-## 03 Voraussetzungen
-Damit ein Gerät Strom über das Datennetz beziehen kann, muss neben Daten zusätzlich Strom in die Datenleitung eingespeist werden – idealerweise im Netzwerkverteiler. So eignet sich dieses Verfahren vor allem für IP-Telefone, Switche, WLAN-Access-Points oder Überwachungskameras.
+## 03 Digitale Informationsübertragung
+**Um Daten sowohl innerhalb des eigentlichen Rechners als auch an bzw. von Peripheriegeräten zu übertragen benötigt man Schnittstellen (Interfaces). Je nach den Anforderungen können diese sowohl das Übertragungsverfahren betreffend als auch in ihren technischen Spezifikationen sehr unterschiedlich sein.** Auch die Konventionen wie Daten zwischen Sender und Empfänger zu übermitteln sind (Übertragungsprotokoll) können selbst bei physischer Ähnlichkeit der Schnittstelle sehr verschieden sein.
 
-Ein weiterer Punkt, der vor der Installation bedacht werden muss, ist die zusätzliche Erwärmung des Kabels. Je mehr Strom durch das LAN-Kabel fließt, umso mehr Wärme wird durch den Widerstand erzeugt. Dies beeinträchtigt jedoch die Datenübertragung. Deshalb sollte im Vorfeld geklärt werden, welcher Belastung das Kabel standhalten muss und wie die Wärme des Kabels abfließen kann.
+Als Übertragungsverfahren ist die elektrische Signalübertragung zweier (digitaler) Werte (Zustände) sowohl drahtgebunden als auch drahtlos über Funkstrecken weitverbreitet. Dazu kommt noch die aufgrund ihrer vielen Vorteile optische Datenübertragung mittels Glas- oder Kunststoffasern. Letztgenanntes Verfahren ist in der Industrie wegen der Störsicherheit, im kommerziellen Bereich wegen des hohen Datentransfervolumens und bei militärischen Anwendungen wegen der großen Abhörsicherheit weitverbreitet.
 
-Zudem kann das LAN-Kabel nicht beliebig lang sein, denn bei längeren Leitungen kommt es zum Spannungsabfall. Deshalb muss beim Kauf des Kabels schon auf den Aderquerschnitt geachtet werden, der nicht über einem AWG-Wert von 24 liegen sollte (CAT5).
+**Grundsätzlich kann man alle Schnittstellen in zwei Kategorien der Datenübertragung einteilen: (1) die einzelnen Digitalwerte werden zeitlich hintereinander übertragen ([serielle Datenübertragung](#seriell)) oder (2) Gruppen von Digitalwerten (Bytes) werden zur gleichen Zeit übertragen ([parallele Datenübertragung](#parallel)).**
+
+![image](https://user-images.githubusercontent.com/83710723/147655775-6c749ab1-511c-4d38-83d2-5894c4db3bc9.png)
+
+
+Bekannte serielle Schnittstellen sind der USB-Bus, RS-232 und Netzwerkschnittstellen. Parallele Schnittstellen sind etwa der PCI Bus (in ihrem PC), Druckerschnittstelle (sofern dazunicht wie heute bereits verbreitet der USB Bus verwendet wird) und GPIB Bus. Aus diesen Beispielen kann man schon Vor- bzw. Nachteile der beiden Kategorien abschätzen: 
+- Über „lange“ Strecken ist die serielle Übertragung insbesondere bei kabelgebundenen Verfahren im Vorteil da minimal nur zwei Leiter (Drähte) benötigt werden,
+- dafür ist die mögliche Übertragungsgeschwindigkeit (bei gleichem technischen Aufwand) kleiner als bei parallelen Schnittstellen. Zum Beispiel benötigt der PCI Bus in seiner ursprünglichen Form 32 + 1(Masse) Leitung kann dafür aber bei einer Taktfrequenz von 33 MHz theoretisch etwa 1Gbit/s (1 Bit = 1 digitale Informationseinheit, E/A-Schalter) übertragen. Verwendet man für die serielle Übertragung eine Frequenz von 33
+MHz so kommt man rechnerisch zwar auf 33 Mbit/s. 
+- Aufgrund des notwendig aufwendigeren Übertragungsprotokolls (Sie müssen Marken zum Kennzeichnen wo eine Dateneinheit beginnt bzw. endet ebenfalls übertragen) reduziert sich dieser Wert.
 
 &uarr; [zurück zum Seitenanfang](#top)
+
+<br/>
+
+<br/>
+
+<a name="seriell"></a>
+### Serielle Datenübertragung
+**Serielle Datenübertragungen übertragen digitale Daten autonom jeweils auf einer Leitung (bzw. auf einem Leitungspaar). Im Gegensatz hierzu werden bei parallelen Datenübertragungen Daten [synchron](#synchron) über mehrere Leitungen übertragen.** Der grundlegende Unterschied ist, dass man bei seriellen Übertragungen keine Laufzeitunterschiede verschiedener Leitungen berücksichtigen muss, was wesentlich höhere Taktfrequenzen erlaubt. 
+
+Der Name seriell assoziiert falsche Vorstellungen, da im Prinzip jede Datenübertragung seriell arbeitet. Ein besserer Name ist bit-serielle Datenübertragung (im Gegensatz zur byte-seriellen Übertragung einer Centronics-Schnittstelle), aber auch dieser Name weckt falsche Assoziationen, da auch bei seriellen Datenübertragungen mehrere Leitungen parallel genutzt werden können (z. B. PCI Express, Gigabit-Ethernet, HDMI) und komplexere Modulationen verwendet werden können, die keine einzelnen Bits mehr kennen (PCI Express, USB 3.0, USB 3.1, SATA, Ethernet ab Fast Ethernet). 
+
+**Für die seriellen Datenübertragungen sind verschiedene serielle Schnittstellen definiert.** Diese umfassen 
+- Stecker, 
+- Spannungen, 
+- Modulationen, 
+- verwendete Protokolle sowie 
+- Softwareschnittstellen.
+
+Heutzutage kommen bis auf wenige Ausnahmen (DDR-RAM-Anbindung an CPUs sowie Legacy-Schnittstellen) nur noch serielle Datenübertragungen zum Einsatz. Selbst ultraschnelle AD-Wandler benutzen serielle Schnittstellen zur Ausgabe der gewandelten Daten. Früher (bis in die 1990er Jahre) wurden serielle Schnittstellen für langsamere Datenübertragungen (bis ca. 10 KByte/s) über ggf. längere Distanzen (einige hundert Meter) verwendet, parallele Schnittstellen für schnellere Übertragungen (bis 1 MByte/s) über kürzere Entfernungen.
+
+<br/>
+
+**Eigenschaften**
+Im Folgenden werden einige Begriffe oder Merkmale aufgezählt, die grundsätzlich jedem seriellen Übertragungsstandard zuzuordnen sind. Des Weiteren wird zwischen Eigenschaften der physikalischen Schnittstelle Hardware und den Protokollen unterschieden.
+
+- Steckeraufbau, Pin-Belegung
+- Differentielle (balanced) Übertragung oder nicht-differentielle Übertragung
+- Spannungen, Ströme, Impedanzen, Abschlusswiderstände, Wellenlänge (bei optischen Übertragungen)
+- Gleichspannungsanteil, galvanische Trennung
+- Unidirektional: Simplex, Bidirektional: Halb-Duplex, Voll-Duplex
+- Leitungskodierung bzw. Modulation
+- Selbsttaktend oder mit zusätzlichem Taktsignal
+- Anzahl der Übertragungskanäle, je Richtung
+- Hard- oder Software-Handshake
+- Übertragungsfehlerbehandlung: Parität, CRC, Hamming-Distanz etc. (siehe Kodierungstheorie)
+- Punkt-zu-Punkt-Verbindung (P2P) oder Multipoint (serieller Bus)
+- Arbitrierung: Multimaster oder Masterslave
+- Echtzeitfähigkeit: z. B. bei Feldbussen erforderlich
+- Bei Datenbussen Arbitrierung: Prioritätensteuerung über Token, CSMA etc.
+
+Es gibt verschiedene Standards zu seriellen Schnittstellen, über die eine serielle Übertragung erfolgen kann.
+
+<br/>
+
+<a name="synchron"></a>
+#### Synchron
+
+Bei der [synchronen Datenübertragung](https://de.wikipedia.org/wiki/Synchrone_Daten%C3%BCbertragung) werden die Daten in Blocks zusammengefasst und zusammen übertragen. Bei der synchronen Übertragung sind nicht mehr für jedes Datenbyte jeweils einzelne Start-Bits nötig. Die Nutzdaten werden paketorientiert in größeren Blöcken zusammengefasst oder als ein kontinuierlicher Datenstrom übertragen. Die Übertragung wird damit effizienter. Frühe Vertreter dieser Übertragungstechnik waren HDLC und SDLC aus den 1970er Jahren.
+
+
+&uarr; [zurück zum Seitenanfang](#top)
+
+
+<br/>
+
+<br/>
+
+<a name="parallel"></a>
+### Parallele Datenübertragung
+
+
+&uarr; [zurück zum Seitenanfang](#top)
+
+<br/>
+
+<br/>
+
+<br/>
 
 <br/>
 
