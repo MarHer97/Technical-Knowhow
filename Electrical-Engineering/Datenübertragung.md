@@ -198,6 +198,12 @@ Die parallele Übertragung über mehrere serielle Datenkanäle unterscheidet sic
 
 Der wesentliche Nachteil der parallelen Datenübertragung, neben dem Umstand, eine Vielzahl von parallelen Datenübertragungspfaden zu benötigen, ist der Umstand, dass die einzelnen Laufzeiten entlang der parallelen Leitungen nicht alle exakt gleich sind. Diese Ungleichheiten können beispielsweise durch kleine Abweichung in den Leitungslängen und anderen Toleranzen im physikalischen Aufbau der Übertragungsstrecke bedingt sein. Dadurch kommt es, insbesondere bei höheren Schrittgeschwindigkeiten, zu Empfangsfehlern bzw. einer Beschränkung der Schrittgeschwindigkeit und damit der Datenübertragungsrate. Aus diesem Grund werden bei höheren Übertragungsraten serielle Übertragungsverfahren eingesetzt, auch wenn durch die serielle Aneinanderreihung der einzelnen Symbole hohe Symbolraten und große Bandbreiten die Folge sind.
 
+<br/>
+
+<a name="asynchron"></a>
+#### Asynchron
+Bei der [asynchronen Datenübertragungen](https://de.wikipedia.org/wiki/Asynchrone_Daten%C3%BCbertragung) übertragen einzelne Datenworte (5 bis 16 bit) jeweils einzeln und unabhängig voneinander. Daraus folgt, dass alle gesendeten Daten Synchronisationsinformationen benötigen (z. B. Start-Bit, Stop-Bit, siehe RS-232). Durch das Startbit wird eine Synchronisation von Sender und Empfänger für ein übertragenes Datenwort erzeugt. Werden mehrere Datenworte nacheinander übertragen, wird jedes Datenwort mit einer eigenen Synchronisationsinformation in Form von Start- und Stop-Bit versehen.
+
 &uarr; [zurück zum Seitenanfang](#top)
 
 
