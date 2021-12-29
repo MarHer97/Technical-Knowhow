@@ -15,8 +15,6 @@ Inhalt des Markdowns Datenübertragung
 > [Serielle Datenübertragung](#seriell) <br/>
 > [Parallele Datenübertragung](#parallel) <br/>
 
-**[04 Standards](#04)** <br/>
-
 
 
 <br/>
@@ -124,6 +122,12 @@ Bekannte serielle Schnittstellen sind der USB-Bus, RS-232 und Netzwerkschnittste
 MHz so kommt man rechnerisch zwar auf 33 Mbit/s. 
 - Aufgrund des notwendig aufwendigeren Übertragungsprotokolls (Sie müssen Marken zum Kennzeichnen wo eine Dateneinheit beginnt bzw. endet ebenfalls übertragen) reduziert sich dieser Wert.
 
+<br/>
+
+**Vorteile digitaler Übertragung**
+
+Benötigt eine Informationen mehr Bandbreite als zur Verfügung steht, dann wird die Information nicht einfach abgeschnitten, sondern zwischengespeichert und nacheinander übertragen. Das geht bei analogen Signalen nicht.
+
 &uarr; [zurück zum Seitenanfang](#top)
 
 <br/>
@@ -184,57 +188,29 @@ Bei der [synchronen Datenübertragung](https://de.wikipedia.org/wiki/Synchrone_D
 
 <a name="parallel"></a>
 ### Parallele Datenübertragung
+**Parallele Datenübertragungen übertragen digitale Daten über mehrere Leitungen gleichzeitig. Die Übertragung erfolgt dabei auf mehreren physischen Leitungen nebeneinander oder über mehrere Kanäle zur gleichen Zeit im "Gleichschritt".** Werden nur binäre Symbole mit zwei möglichen Zuständen eingesetzt, entspricht ein Symbol einem Bit, welches pro Datenpfad übertragen werden kann. Bei n parallelen Datenpfaden können n Bits in einem Schritt parallel übertragen werden.
 
+Die parallele Übertragung über mehrere serielle Datenkanäle unterscheidet sich grundlegend von einer parallelen Datenübertragung in der Weise, dass dort auf der unteren Hardwareebene alle Kanäle unabhängig voneinander übertragen und Laufzeitunterschiede irrelevant sind. Bei parallelen Übertragungen arbeiten alle Datenkanäle streng mit einem gemeinsamen Taktregime und sind dadurch sehr empfindlich auf Laufzeitunterschiede der Kanäle.
+
+<br/>
+
+**Nachteile der Parallelen Datenübertragung**
+
+Der wesentliche Nachteil der parallelen Datenübertragung, neben dem Umstand, eine Vielzahl von parallelen Datenübertragungspfaden zu benötigen, ist der Umstand, dass die einzelnen Laufzeiten entlang der parallelen Leitungen nicht alle exakt gleich sind. Diese Ungleichheiten können beispielsweise durch kleine Abweichung in den Leitungslängen und anderen Toleranzen im physikalischen Aufbau der Übertragungsstrecke bedingt sein. Dadurch kommt es, insbesondere bei höheren Schrittgeschwindigkeiten, zu Empfangsfehlern bzw. einer Beschränkung der Schrittgeschwindigkeit und damit der Datenübertragungsrate. Aus diesem Grund werden bei höheren Übertragungsraten serielle Übertragungsverfahren eingesetzt, auch wenn durch die serielle Aneinanderreihung der einzelnen Symbole hohe Symbolraten und große Bandbreiten die Folge sind.
 
 &uarr; [zurück zum Seitenanfang](#top)
 
-<br/>
 
 <br/>
 
 <br/>
 
-<br/>
+Weiterführende Literatur:
+- [Datenübertragung, Website Elektronik Kompendium](https://www.elektronik-kompendium.de/sites/kom/0212091.htm)
+- [Übertragungstechnik, Website Elektronik Kompendium](https://www.elektronik-kompendium.de/sites/kom/1303291.htm)
+- [Übertragungstechnik Grundbegrriffe, Website Elektronik Kompendium](https://www.elektronik-kompendium.de/sites/kom/1607151.htm)
 
-<br/>
 
-<br/>
 
-<a name="04"></a>
-## 04 Standards
-Der IEEE 802.3af-2003-Standard versorgt Geräte mit bis zu 15,4 W (min. 44 V und 350 mA) auf jedem Port. Jedoch sind nur 12,95 W garantiert, denn ein gewisser Anteil geht bei der Übertragung verloren.
-
-Der neuere IEEE 802.3at-2009-Standard (auch bekannt als PoE+) bietet bis zu 25,5 W. Dieser Standard verbietet die Stromübertragung über alle vier Signalpaare.
-
-Ein weiterer Standard, der vor allem im industriellen Umfeld wie zum Beispiel in Fahrzeugen oder Produktionsmaschinen wichtig ist, ist IEEE 802.3bu (PoDL) für einpaarige Leitungen. Hier gibt es zehn Stufen von 5 bis 50 W.
-
-Eine neue Weiterentwicklung, der IEEE 802.3bt-Standard (4PPoE oder PoE++) soll noch größere Kapazitäten für die Stromversorgung bereitstellen: bis zu 55 W (Level 3) und 100 W (Level 4). Damit müsste jedes Leitungspaar eine Spannung von bis zu 600, beziehungsweise 960 mA aushalten. So könnte ein ganzer Arbeitsplatz mit Rechner, Bildschirm und Telefon über das LAN-Kabel versorgt werden.
-
-<br/>
-
-**Übersicht der [IEEE 802.3 Normenteile](https://de.wikipedia.org/wiki/IEEE_802)**
-
-802.3 – [CSMA/CD](https://de.wikipedia.org/wiki/Carrier_Sense_Multiple_Access/Collision_Detection)
-- 802.3af – [Power over Ethernet](https://de.wikipedia.org/wiki/Power_over_Ethernet)
-- 802.3at – [Power over Ethernet](https://de.wikipedia.org/wiki/Power_over_Ethernet)
-- 802.3az – [Energy Efficient Ethernet](https://de.wikipedia.org/wiki/Energy_Efficient_Ethernet)
-
-<br/>
-
-**Vergleich der PoE-Standards:**
-
-| Standard     | Klasse | Klassifikationsstrom | Max. Speiseleistung (PSE) | Max. Entnahmeleistung (PD) | Ethernet Typ  |
-| :-------------- | :------ | :-------------------- | :------------------------- | :-------------------------- | :------------- |
-| IEEE 802.3af | 0      | 0-4 mA               | 15,4 W                    | 0,44-12,95 W               | 10/100 Base-T |
-| IEEE 802.3af | 1      | 9-12 mA              | 4,0 W                     | 0,44-3,84 W                | 10/100 Base-T |
-| IEEE 802.3af | 2      | 17-20 mA             | 7,0 W                     | 3,84-6,49 W                | 10/100 Base-T |
-| IEEE 802.3af | 3      | 26-30 mA             | 15,4 W                    | 6,49-12,95 W               | 10/100 Base-T |
-| IEEE 802.3at     | 4      | 36-44 mA             | 25,5 W                    | 12,95-21,90 W              | 10/100 Base-T |
-
-&uarr; [zurück zum Seitenanfang](#top)
-
-<br/>
-
-<br/>
 
 <br/>
