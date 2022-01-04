@@ -8,8 +8,18 @@
 Inhalt des Markdowns `Recommended Standard 232`
 
 **[01 Definition](#01)** <br/>
+> [Aktuelle Verwendung](#Verwendung) <br/>
+
 **[02 ANSI-Norm](#02)** <br/>
 **[03 Funktionsweise](#03)** <br/>
+> [Übertragung](#Übertragung) <br/>
+> [Serielle Datenübertragung](#Serielle) <br/>
+> [Asynchrone Datenübertragung](#Asynchrone) <br/>
+> [Spannungsschnittstelle](#Spannungsschnittstelle) <br/>
+> [Steckverbindung](#Steckverbindung) <br/>
+> [Handshake](#Handshake) <br/>
+> [Leitungslänge und Übertragungsrate](#Leitungslänge) <br/>
+> [Verkabelung und Stecker](#Verkabelung) <br/>
 
 <br/>
 
