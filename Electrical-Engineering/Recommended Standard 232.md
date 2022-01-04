@@ -8,10 +8,7 @@
 Inhalt des Markdowns `Recommended Standard 232`
 
 **[01 Definition](#01)** <br/>
-> [Aktuelle Verwendung](#Verwendung) <br/>
-
 **[02 ANSI-Norm](#02)** <br/>
-
 **[03 Funktionsweise](#03)** <br/>
 
 <br/>
@@ -152,7 +149,6 @@ Diese waren beim IBM PC/AT ursprünglich als reine Notlösung zum Platzsparen ei
 
 <br/>
 
-
 <a name="Leitungslänge"></a>
 ### Leitungslänge und Übertragungsrate
 **Da die Signalqualität mit zunehmender Leitungslänge abnimmt, ist die Leitungslänge begrenzt.**
@@ -177,6 +173,37 @@ Die Probleme der gegenseitigen Beeinflussung über GND, fehlender Abschlusswider
 | 19,2 | 15 |
 | 57,6 | 5 |
 | 115,2	 | < 2 |
+
+&uarr; [zurück zur Übersicht](#top)
+
+<br/>
+
+<br/>
+
+<a name="Verkabelung"></a>
+### Verkabelung und Stecker
+**Um zwei Geräte über die serielle Schnittstelle zu verbinden, müssen die „hörenden“ Leitungen des einen Gerätes mit den „sprechenden“ der anderen Seite verbunden werden.** Bei Terminals bzw. Rechnern (DTE– data terminal equipment) sind „sprechende“ Leitungen TxD, RTS und DTR, „hörende“ Leitungen sind RxD, CTS, DSR, DCD und RI. Bei Modems (DCE– data circuit-terminating equipment) ist es genau umgekehrt; es gibt die vom Terminal „gesprochenen“ Signale an die Gegenseite weiter und muss daher auf diese „hören“, andersherum werden die von der Gegenseite „gehörten“ Signale zum Terminal „weitergesagt“.
+
+![image](https://user-images.githubusercontent.com/83710723/148074192-addc847a-62fd-44db-ba51-d8d191c8d0c4.png)
+![image](https://user-images.githubusercontent.com/83710723/148074225-1761d187-afcd-4488-a7b7-c8787274d5a3.png)
+
+<br/>
+
+**Pinbelegung**
+
+| Abkürzung     | Name                  | Beschreibung                                                                                                                                                                                                                                                                                                                          | Pin-Nr.<br>DB-25 | Pin-Nr.<br>DE-9 | Pin-Nr.<br>[Modular 8P8C](https://de.wikipedia.org/wiki/RJ-Steckverbindung "RJ-Steckverbindung") | Richtung beim DTE (z. B. PC) | Richtung beim DCE (z. B. Modem) |
+| ------------- | --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------- | --------------- | ------------------------------------------------------------------------------------------------ | ---------------------------- | ------------------------------- |
+|               | Common Ground         | Gemeinsame Abschir[mmasse](https://de.wikipedia.org/wiki/Masse_(Elektronik) "Masse (Elektronik)") (nicht Datenmasse)                                                                                                                                                                                                                  | 1                | —               | —                                                                                                | —                            | —                               |
+| CTS           | Clear to Send         | „Sendeerlaubnis“; Ein High-Pegel an diesem Eingang ist ein Signal der Gegenstelle, dass sie Daten von DTE entgegennehmen kann                                                                                                                                                                                                         | 5                | 8               | 7                                                                                                | Eingang                      | Ausgang                         |
+| DCD, CD, RLSD | (Data) Carrier Detect | Mit einem High-Pegel an diesem Eingang signalisiert die Gegenstelle, dass sie einlaufende Daten auf der Leitung erkennt (dem Namen nach ist das die [Modulationsträger](https://de.wikipedia.org/wiki/Tr%C3%A4ger_(Nachrichtentechnik) "Träger (Nachrichtentechnik)")\-Erkennung) und an DTE weitergeben möchte                       | 8                | 1               | 2                                                                                                | Eingang                      | Ausgang                         |
+| DSR           | Data Set Ready        | Ein High-Pegel an diesem Eingang ist ein Signal der Gegenstelle, dass sie im Prinzip einsatzbereit ist (aber nicht notwendigerweise auch empfangsbereit, siehe CTS)                                                                                                                                                                   | 6                | 6               | 1                                                                                                | Eingang                      | Ausgang                         |
+| DTR           | Data Terminal Ready   | Mit einem High-Pegel an diesem Ausgang signalisiert DTE seine Betriebsbereitschaft an die Gegenstelle. Damit kann die Gegenstelle, z. B. ein Modem, aktiviert oder auch zurückgesetzt werden. Üblicherweise antwortet die Gegenstelle mit einem High-Pegel auf DSR                                                                    | 20               | 4               | 3                                                                                                | Ausgang                      | Eingang                         |
+| GND           | Ground                | Signalmasse. Die Signalspannungen werden gegen diese Leitung gemessen.                                                                                                                                                                                                                                                                | 7                | 5               | 4                                                                                                | —                            | —                               |
+| RI            | Ring Indicator        | Ein High-Pegel an diesem Eingang signalisiert dem DTE-Gerät, dass ein Anruf ankommt, d. h., dass jemand eine Datenverbindung aufbauen will („ring“ ist engl. für „klingeln“; besonders bei Telefonen und im übertragenen Sinne auch bei Modems). Siehe auch _[Rufspannung](https://de.wikipedia.org/wiki/Rufspannung "Rufspannung")_. | 22               | 9               | —                                                                                                | Eingang                      | Ausgang                         |
+| RTR           | Ready to Receive      | „Empfangsstatus“; ein [High-Pegel](https://de.wikipedia.org/wiki/Logikpegel "Logikpegel") an diesem Ausgang signalisiert der Gegenstelle, dass DTE bereit ist, Daten zu empfangen                                                                                                                                                     | 4                | 7               | 8                                                                                                | Ausgang                      | Eingang                         |
+| RTS           | Request to Send       | „Sendeanforderung“; ein [High-Pegel](https://de.wikipedia.org/wiki/Logikpegel "Logikpegel") an diesem Ausgang signalisiert, dass DTE Daten senden möchte                                                                                                                                                                              | 4                | 7               | 8                                                                                                | Ausgang                      | Eingang                         |
+| RxD, RX, RD   | Receive Data          | Leitung für eingehende (von DTE zu empfangende) Daten (negative Logik).                                                                                                                                                                                                                                                               | 3                | 2               | 5                                                                                                | Eingang                      | Ausgang                         |
+| TxD, TX, TD   | Transmit Data         | Leitung für ausgehende (von DTE gesendete) Daten ([negative Logik](https://de.wikipedia.org/wiki/Negative_Logik "Negative Logik")).                                                                                                                                                                                                   | 2                | 3               | 6                                                                                                | Ausgang                      | Eingang                         |
 
 &uarr; [zurück zur Übersicht](#top)
 
