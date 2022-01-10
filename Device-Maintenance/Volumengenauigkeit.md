@@ -85,6 +85,25 @@ Die Zielscheibe stellt den Volumenbereich um den zentralen Sollwert dar, die sch
 <a name="3"></a>
 ## 03 Formeln zur Errechnung der Volumengenauigkeit
 
+Berechnung des Mittelwertes
+
+![image](https://user-images.githubusercontent.com/83710723/148746234-582a6c81-0afc-499e-bd78-31c0f6dfdd8b.png)
+
+**Berechnung der systematischen Messabweichung**
+
+![image](https://user-images.githubusercontent.com/83710723/148745650-ee1da6e8-d11b-4d49-b53a-e42f7d72d71d.png)
+
+Berechnung der Wiederholstandardabweichung
+
+![image](https://user-images.githubusercontent.com/83710723/148746061-a23f152c-efb7-44ae-97da-517108ed57c6.png)
+
+**Berechnung der zufälligen Messabweichung**
+
+![image](https://user-images.githubusercontent.com/83710723/148745967-fcf93d9b-7aeb-4e7e-8ec0-15dbe7ef6c7a.png)
+
+
+
+
 &uarr; [zurück zum Seitenanfang](#top)
 
 
