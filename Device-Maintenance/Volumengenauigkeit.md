@@ -39,6 +39,14 @@ Inhalt des Markdowns Volumengenauigkeit
 
 Verlinkung zur technischen Norm: **[2002-12-01_DIN EN ISO 8655-1_Volumenmessgeräte mit Hubkolben_Allgemeine Anforderungen](https://hirschmannlab.sharepoint.com/:b:/r/sites/AAD-Product-Management-Portal/Produkt%20Konformitt/01%20European%20Conformity/04%20Technical%20Product%20Standards/2002-12-01_DIN%20EN%20ISO%208655-1_Volumenmessger%C3%A4te%20mit%20Hubkolben_Allgemeine%20Anforderungen.pdf?csf=1&web=1&e=0K9JOb)**
 
+<br/>
+
+| Begriff     | Definition | 
+| :-------------- |  :------ | 
+| **Fehlergrenzen** | Beträge für die höchste zulässige untere und obere Messabweichung des dosierten Volumens vom Nennvolumen oder vom gewählten Volumen eines Kolbenhubgerätes. Eine allgemeine Definition für Fehlergrenzen ist im VIM gegeben. Die Fehlergrenzen für Kolbenhubgeräte sind in ISO 8655-2 bis ISO 8655-5 festgelegt. Die Konformitätsprüfung auf Enhaltung der Fehlergrenzen wird gravimetrisch nach ISO 8655-6 durchgeführt. |
+| **systematische Messabweichung** | Die systematische Messabweichung eines Kolbenhubgerätes ist die Abweichung des dosierten Volumens vom Nennvolumen oder vom gewählten Volumen des Kolbenhubgerätes. Eine allgemeine Definition für die systematische Messabweichung ist in VIM und ISO 3534-1 gegeben. Die systematische Messabweichung für Kolbenhubgeräte sind in ISO 8655-2 bis ISO 8655-5 festgelegt. Bei Konformitätsprüfung nach ISO 8655-6 wird die systematische Messabweichung durch Mittelwertbildung aus 10 Messungen ermittelt. |
+| **zufällige Messabweichung** | Die zufällige Messabweichung eines Kolbenhubgerätes ist die Streuung der dosierten Volumina um den Mittelwert der dosierten Volumina. Eine allgemeine Definition für die zufällige Messabweichung ist in VIM und ISO 3534-1 gegeben. Die zufällige Messabweichung für Kolbenhubgeräte sind in ISO 8655-2 bis ISO 8655-5 festgelegt. Bei Konformitätsprüfung nach ISO 8655-6 wird die zufällige Messabweichung durch Berechnung der Wiederholstandardabweichung von 10 Messungen ermittelt. |
+
 &uarr; [zurück zum Seitenanfang](#top)
 
 <br/>
