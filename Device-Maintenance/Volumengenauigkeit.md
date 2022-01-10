@@ -42,6 +42,7 @@ Die Zielscheibe stellt den Volumenbereich um den zentralen Sollwert dar, die sch
 
 ![image](https://user-images.githubusercontent.com/83710723/148731503-b23fc78d-5273-4cd6-ba87-177b79625e82.png)
 
+&uarr; [zurück zum Seitenanfang](#top)
 
 <br/>
 
