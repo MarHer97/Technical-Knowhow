@@ -37,8 +37,22 @@ Inhalt des Markdowns Volumengenauigkeit
 
 <br/>
 
-<a name="3"></a>
+<a name="2"></a>
+## 02 Grafische Darstellung der Volumengenauigkeit
+Die Zielscheibe stellt den Volumenbereich um den zentralen Sollwert dar, die schwarzen Punkte sind die Werte verschiedener Messungen eines definierten Volumens.
 
+![image](https://user-images.githubusercontent.com/83710723/148731947-da2cb738-8cfc-4930-bc4c-b702f937698e.png)
+
+&uarr; [zurück zum Seitenanfang](#top)
+
+<br/>
+
+<br/>
+
+<br/>
+
+<a name="3"></a>
+## 03 Formeln zur Errechnung der Volumengenauigkeit
 
 &uarr; [zurück zum Seitenanfang](#top)
 
