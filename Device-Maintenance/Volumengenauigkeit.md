@@ -8,6 +8,8 @@
 Inhalt des Markdowns Volumengenauigkeit
 
 **[01 Definition](#1)** <br/>
+> [Messtechnische Begriffe nach DIN EN ISO 8655-1](#Begriffe) <br/>
+
 **[02 Grafische Darstellung der Volumengenauigkeit](#2)** <br/>
 **[03 Formeln zur Errechnung der Volumengenauigkeit](#3)** <br/>
 **[04 Messtechnische Anforderungen nach technischen Normen](#4)** <br/>
@@ -29,6 +31,13 @@ Inhalt des Markdowns Volumengenauigkeit
 | **Fehlergrenze** |  FG | Die in den entsprechenden Normen angegebene Fehlergrenze (FG) gibt die maximale zulässige Abweichung des Gerätes vom Sollwert an. |
 | **Richtigkeit** |  R | Die Richtigkeit (R) zeigt an, wie nahe der Mittelwert am Sollwert liegt, d.h. die systematische Messabweichung. Die Richtigkeit ergibt sich als Differenz zwischen Volumen-Mittelwert und Volumen-Sollwert, bezogen auf den Sollwert in %. |
 | **Variationskoeffizient** |  VK | Der Variationskoeffizient (VK) zeigt an, wie nahe die einzelnen Messwerte beieinander liegen, d.h. zufällige Messabweichung. Der Variationskoeffizient ist definiert als Standardabweichung in %, bezogen auf den Volumen-Mittelwert. |
+
+<br/>
+
+<a name="Begriffe"></a>
+### Messtechnische Begriffe nach DIN EN ISO 8655-1
+
+Verlinkung zur technischen Norm: **[2002-12-01_DIN EN ISO 8655-1_Volumenmessgeräte mit Hubkolben_Allgemeine Anforderungen](https://hirschmannlab.sharepoint.com/:b:/r/sites/AAD-Product-Management-Portal/Produkt%20Konformitt/01%20European%20Conformity/04%20Technical%20Product%20Standards/2002-12-01_DIN%20EN%20ISO%208655-1_Volumenmessger%C3%A4te%20mit%20Hubkolben_Allgemeine%20Anforderungen.pdf?csf=1&web=1&e=0K9JOb)**
 
 &uarr; [zurück zum Seitenanfang](#top)
 
