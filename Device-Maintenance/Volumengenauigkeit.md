@@ -126,9 +126,13 @@ Berechnung der Wiederholstandardabweichung
 
 <a name="8655-3"></a>
 ### Messtechnische Anforderungen nach DIN EN ISO 8655-3
+**Die Konformitätsprüfung (Baumusterprüfung) nach ISO 8655-6 bewertet die gesamte Kolbenbürette, bestehend aus Antrieb und gegebenenfalls Wechseleinheiten.**
 
+**Bei der Konformitätsprüfungen gelten die Fehlergrenzen nach den folgenden Tabellen 1 und 2.** Für Kolbenbüretten zwischen den in den Tabellen 1 und 2 angegebenen gelten die absoluten Fehlergrenzen für das nächstgrößere Volumen.
 
-<br/>
+![image](https://user-images.githubusercontent.com/83710723/148749708-26889d10-8c9d-4347-b6e1-17a02f7028f2.png)
+
+![image](https://user-images.githubusercontent.com/83710723/148749738-87ddb1a4-795e-4ed8-86bb-1a8257576564.png)
 
 &uarr; [zurück zum Seitenanfang](#top)
 
