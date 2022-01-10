@@ -28,17 +28,15 @@ Inhalt des Markdowns Volumengenauigkeit
 
 <a name="1"></a>
 ## 01 Definition
-Zur Beschreibung der Genauigkeit wird für Volumenmessgeräte aus Glas der Begriff der "Fehlergrenze" verwendet, während sich für Liquid Handling Geräte die statistischen Begriffe "Richtigkeit [%]" und "Variationskoeffizient [%]" etabliert haben.
+**Zur Beschreibung der Genauigkeit wird für Volumenmessgeräte aus Glas der Begriff der "Fehlergrenze" verwendet, während sich für Liquid Handling Geräte die statistischen Begriffe "Richtigkeit [%]" und "Variationskoeffizient [%]" etabliert haben.**
 
+<br/>
 
-Fehlergrenze (FG)
-Die in den entsprechenden Normen angegebene Fehlergrenze (FG) gibt die maximale zulässige Abweichung des Gerätes vom Sollwert an.
-
-Richtigkeit (R)
-Die Richtigkeit (R) zeigt an, wie nahe der Mittelwert am Sollwert liegt, d.h. die systematische Messabweichung. Die Richtigkeit ergibt sich als Differenz zwischen Volumen-Mittelwert und Volumen-Sollwert, bezogen auf den Sollwert in %.
-
-Variationskoeffizient (VK)
-Der Variationskoeffizient (VK) zeigt an, wie nahe die einzelnen Messwerte beieinander liegen, d.h. zufällige Messabweichung. Der Variationskoeffizient ist definiert als Standardabweichung in %, bezogen auf den Volumen-Mittelwert.![image](https://user-images.githubusercontent.com/83710723/148731112-8d8c0be2-fb32-4cfc-a2e1-f720405608af.png)
+| Begriff     | Abkürzung | Definition | 
+| :-------------- | :------ | :------ | 
+| **Fehlergrenze** |  FG | Die in den entsprechenden Normen angegebene Fehlergrenze (FG) gibt die maximale zulässige Abweichung des Gerätes vom Sollwert an. |
+| **Richtigkeit** |  R | Die Richtigkeit (R) zeigt an, wie nahe der Mittelwert am Sollwert liegt, d.h. die systematische Messabweichung. Die Richtigkeit ergibt sich als Differenz zwischen Volumen-Mittelwert und Volumen-Sollwert, bezogen auf den Sollwert in %. |
+| **Variationskoeffizient** |  VK | Der Variationskoeffizient (VK) zeigt an, wie nahe die einzelnen Messwerte beieinander liegen, d.h. zufällige Messabweichung. Der Variationskoeffizient ist definiert als Standardabweichung in %, bezogen auf den Volumen-Mittelwert. |
 
 &uarr; [zurück zum Seitenanfang](#top)
 
