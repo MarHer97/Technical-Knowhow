@@ -22,6 +22,14 @@ Inhalt des Markdowns Volumengenauigkeit
 
 <a name="1"></a>
 ## 01 Definition
+Im allgemeinen Sprachgebrauch außerhalb der Metrologie ist Genauigkeit ein Synonym für Präzision und in Anmerkung 3 von VIM 2.13 wird gesagt, dass 
+Messgenauigkeit ‚manchmal als Ausmaß der Übereinstimmung zwischen Messwerten verstanden wird. **Dieser Gebrauch ist in der analytischen Chemie nicht akzeptabel.** 
+
+**Die Messgenauigkeit beschreibt, wie nahe ein einzelnes Messergebnis dem wahren Wert der Größe (VIM 2.11) ist. Genauigkeit beinhaltet damit den Effekt sowohl der Präzision als auch der Richtigkeit.** Genauigkeit kann nicht als numerischer Wert angegeben werden, aber Messergebnisse werden ‚genauer‘ genannt, wenn die Messabweichungen
+und damit die Messunsicherheiten reduziert werden. 
+
+Die Messgenauigkeit kann nicht dazu verwendet werden, um die Zuverlässigkeit von Messergebnissen zu quantifizieren. Hier ist eines Schätzung der Messunsicherheit erforderlich (siehe Kapitel 3).
+
 **Zur Beschreibung der Genauigkeit wird für Volumenmessgeräte aus Glas der Begriff der "Fehlergrenze" verwendet, während sich für Liquid Handling Geräte die statistischen Begriffe "Richtigkeit [%]" und "Variationskoeffizient [%]" etabliert haben.**
 
 <br/>
