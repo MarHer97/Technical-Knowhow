@@ -49,6 +49,9 @@ Verlinkung zur technischen Norm: **[2002-12-01_DIN EN ISO 8655-1_Volumenmessger�
 | **systematische Messabweichung** | **Die systematische Messabweichung eines Kolbenhubgerätes ist die Abweichung des dosierten Volumens vom Nennvolumen oder vom gewählten Volumen des Kolbenhubgerätes.** Eine allgemeine Definition für die systematische Messabweichung ist in VIM und ISO 3534-1 gegeben. Die systematische Messabweichung für Kolbenhubgeräte sind in ISO 8655-2 bis ISO 8655-5 festgelegt. Bei Konformitätsprüfung nach ISO 8655-6 wird die systematische Messabweichung durch Mittelwertbildung aus 10 Messungen ermittelt. |
 | **zufällige Messabweichung** | **Die zufällige Messabweichung eines Kolbenhubgerätes ist die Streuung der dosierten Volumina um den Mittelwert der dosierten Volumina.** Eine allgemeine Definition für die zufällige Messabweichung ist in VIM und ISO 3534-1 gegeben. Die zufällige Messabweichung für Kolbenhubgeräte sind in ISO 8655-2 bis ISO 8655-5 festgelegt. Bei Konformitätsprüfung nach ISO 8655-6 wird die zufällige Messabweichung durch Berechnung der Wiederholstandardabweichung von 10 Messungen ermittelt. |
 
+Literaturverweis:
+- [2012_International Vocabulary of Metrology_VIM](https://hirschmannlab-my.sharepoint.com/:b:/r/personal/m_herkert_hirschmannlab_de/Documents/Produktmanagement/Literaturrecherche/General%20Information/2012_International%20Vocabulary%20of%20Metrology_VIM.pdf?csf=1&web=1&e=e33goP)
+
 &uarr; [zurück zum Seitenanfang](#top)
 
 <br/>
